@@ -1,47 +1,53 @@
-school,season,gender,athlete,event,performance,meet,meet_date,class_year,age_at_meet,source
-Virginia,2022,Women,Anzhelika Parenchuk,400H,1:03.76,Virginia Open,2022-03-19,FR-1,,TFRRS
-Virginia,2022,Women,Emily Alexandru,400H,1:01.99,Virginia Open,2022-03-19,FR-1,,TFRRS
-Virginia,2022,Women,Alahna Sabbakhan,400m,57.24,Virginia Open,2022-03-19,SO-2,,TFRRS
-Virginia,2022,Women,Alix Still,Long Jump,6.17m (3.8),Virginia Open,2022-03-19,JR-3,,TFRRS
-Virginia,2022,Women,Jordan Hardy,Long Jump,5.81m (1.4),Virginia Open,2022-03-19,FR-1,,TFRRS
-Virginia,2022,Women,Mia Abulencia,Long Jump,5.65m (3.4),Virginia Open,2022-03-19,JR-3,,TFRRS
-Virginia,2022,Women,Zoe Rice,Long Jump,6.19m (2.9),Virginia Open,2022-03-19,JR-3,,TFRRS
-Virginia,2022,Women,Alix Still,100H,14.12 (0.6),Raleigh Relays,2022-03-24/26,JR-3,,TFRRS
-Virginia,2022,Women,Anzhelika Parenchuk,400H,1:03.65,Raleigh Relays,2022-03-24/26,FR-1,,TFRRS
-Virginia,2022,Women,Emily Alexandru,400H,1:02.47,Raleigh Relays,2022-03-24/26,FR-1,,TFRRS
-Virginia,2022,Women,Jada Seaman,Long Jump,6.02m (1.9),Raleigh Relays,2022-03-24/26,SO-2,,TFRRS
-Virginia,2022,Women,Alix Still,100H,13.82 (1.7),Duke Invitational - Heptathlon,2022-04-07/09,JR-3,,TFRRS
-Virginia,2022,Women,Emily Alexandru,100H,16.83 (0.6),Duke Invitational,2022-04-07/09,FR-1,,TFRRS
-Virginia,2022,Women,Anzhelika Parenchuk,400H,1:01.56,Duke Invitational,2022-04-07/09,FR-1,,TFRRS
-Virginia,2022,Women,Emily Alexandru,400H,1:05.07,Duke Invitational,2022-04-07/09,FR-1,,TFRRS
-Virginia,2022,Women,Alix Still,Long Jump,5.77m (1.7),Duke Invitational - Heptathlon,2022-04-07/09,JR-3,,TFRRS
-Virginia,2022,Women,Jada Seaman,Long Jump,6.12m (3.0),Duke Invitational,2022-04-07/09,SO-2,,TFRRS
-Virginia,2022,Women,Jordan Hardy,Long Jump,5.43m (2.9),Duke Invitational,2022-04-07/09,FR-1,,TFRRS
-Virginia,2022,Women,Zoe Rice,Long Jump,5.72m (2.5),Duke Invitational,2022-04-07/09,JR-3,,TFRRS
-Virginia,2022,Women,Alix Still,100H,14.42 (-1.7),Virginia Challenge,2022-04-22/23,JR-3,,TFRRS
-Virginia,2022,Women,Anzhelika Parenchuk,400H,1:02.68,Virginia Challenge,2022-04-22/23,FR-1,,TFRRS
-Virginia,2022,Women,Emily Alexandru,400H,1:01.77,Virginia Challenge,2022-04-22/23,FR-1,,TFRRS
-Virginia,2022,Women,Alix Still,Long Jump,5.79m (0.5),Virginia Challenge,2022-04-22/23,JR-3,,TFRRS
-Virginia,2022,Women,Jada Seaman,Long Jump,5.92m (1.3),Virginia Challenge,2022-04-22/23,SO-2,,TFRRS
-Virginia,2022,Women,Mia Abulencia,Long Jump,5.51m (1.2),Virginia Challenge,2022-04-22/23,JR-3,,TFRRS
-Virginia,2022,Women,Zoe Rice,Long Jump,5.61m (2.0),Virginia Challenge,2022-04-22/23,JR-3,,TFRRS
-Virginia,2022,Women,Jada Seaman,Long Jump,6.07m (-0.4),Penn Relays,2022-04-28/30,SO-2,,TFRRS
-Virginia,2022,Women,Emily Alexandru,400H,1:02.13,Virginia Grand Prix,2022-05-01,FR-1,,TFRRS
-Virginia,2022,Women,Anzhelika Parenchuk,400m,56.45,Virginia Grand Prix,2022-05-01,FR-1,,TFRRS
-Virginia,2022,Women,Emily Alexandru,400H,1:01.01,Virginia High Performance,2022-05-04,FR-1,,TFRRS
-Virginia,2022,Women,Alahna Sabbakhan,400m,56.79,Virginia High Performance,2022-05-04,SO-2,,TFRRS
-Virginia,2022,Women,Alix Still,Long Jump,5.65m (0.8),Virginia High Performance,2022-05-04,JR-3,,TFRRS
-Virginia,2022,Women,Jordan Hardy,Long Jump,5.83m (0.5),Virginia High Performance,2022-05-04,FR-1,,TFRRS
-Virginia,2022,Women,Mia Abulencia,Long Jump,5.66m (1.5),Virginia High Performance,2022-05-04,JR-3,,TFRRS
-Virginia,2022,Women,Zoe Rice,Long Jump,5.98m (1.1),Virginia High Performance,2022-05-04,JR-3,,TFRRS
-Virginia,2022,Women,Alix Still,100H,13.84 (1.9),ACC Outdoor Track & Field Championships - Heptathlon,2022-05-12/14,JR-3,,TFRRS
-Virginia,2022,Women,Anzhelika Parenchuk,400H,1:02.30,ACC Outdoor Track & Field Championships,2022-05-12/14,FR-1,,TFRRS
-Virginia,2022,Women,Emily Alexandru,400H,1:02.07,ACC Outdoor Track & Field Championships,2022-05-12/14,FR-1,,TFRRS
-Virginia,2022,Women,Alix Still,Long Jump,5.75m (0.7),ACC Outdoor Track & Field Championships - Heptathlon,2022-05-12/14,JR-3,,TFRRS
-Virginia,2022,Women,Alix Still,Long Jump,5.70m (1.2),ACC Outdoor Track & Field Championships,2022-05-12/14,JR-3,,TFRRS
-Virginia,2022,Women,Jada Seaman,Long Jump,6.09m (0.4),ACC Outdoor Track & Field Championships,2022-05-12/14,SO-2,,TFRRS
-Virginia,2022,Women,Jordan Hardy,Long Jump,6.00m (1.9),ACC Outdoor Track & Field Championships,2022-05-12/14,FR-1,,TFRRS
-Virginia,2022,Women,Zoe Rice,Long Jump,5.69m (0.6),ACC Outdoor Track & Field Championships,2022-05-12/14,JR-3,,TFRRS
-Virginia,2022,Women,Alix Still,Long Jump,5.52m (0.7),NCAA East Preliminary Round,2022-05-25/28,JR-3,,TFRRS
-Virginia,2022,Women,Jada Seaman,Long Jump,5.95m (-0.3),NCAA East Preliminary Round,2022-05-25/28,SO-2,,TFRRS
-Virginia,2022,Women,Zoe Rice,Long Jump,5.87m (0.8),NCAA East Preliminary Round,2022-05-25/28,JR-3,,TFRRS
+athlete,school,conference,event,season,class_year,birth_date,age_at_meet,performance,unit,meet,meet_date,round,place,wind,indoor_outdoor,source_url,data_status
+"Alexandru, Emily",Virginia,ACC,400H,2022,FR-1,,,1:01.99,s,Virginia Open,2022-03-19,,,,Outdoor,https://www.tfrrs.org/results/73547/4427659/Virginia_Open/400-Hurdles,TFRRS all_performances
+"Parenchuk, Anzhelika",Virginia,ACC,400H,2022,FR-1,,,1:03.76,s,Virginia Open,2022-03-19,,,,Outdoor,https://www.tfrrs.org/results/73547/4427659/Virginia_Open/400-Hurdles,TFRRS all_performances
+"Comella, Abby",Virginia,ACC,400m,2022,FR-1,,,58.30,s,Virginia Open,2022-03-19,,,,Outdoor,https://www.tfrrs.org/results/73547/4427668/Virginia_Open/400-Meters,TFRRS all_performances
+"Sabbakhan, Alahna",Virginia,ACC,400m,2022,SO-2,,,57.24,s,Virginia Open,2022-03-19,,,,Outdoor,https://www.tfrrs.org/results/73547/4427668/Virginia_Open/400-Meters,TFRRS all_performances
+"Abulencia, Mia",Virginia,ACC,Long Jump,2022,JR-3,,,5.56,m,Virginia Open,2022-03-19,,,1.4,Outdoor,https://www.tfrrs.org/results/73547/4427672/Virginia_Open/Long-Jump,TFRRS all_performances
+"Hardy, Jordan",Virginia,ACC,Long Jump,2022,FR-1,,,5.81,m,Virginia Open,2022-03-19,,,1.4,Outdoor,https://www.tfrrs.org/results/73547/4427672/Virginia_Open/Long-Jump,TFRRS all_performances
+"Rice, Zoe",Virginia,ACC,Long Jump,2022,JR-3,,,6.03,m,Virginia Open,2022-03-19,,,1.9,Outdoor,https://www.tfrrs.org/results/73547/4427672/Virginia_Open/Long-Jump,TFRRS all_performances
+"Still, Alix",Virginia,ACC,Long Jump,2022,JR-3,,,6.14,m,Virginia Open,2022-03-19,,,1.4,Outdoor,https://www.tfrrs.org/results/73547/4427672/Virginia_Open/Long-Jump,TFRRS all_performances
+"Still, Alix",Virginia,ACC,100H,2022,JR-3,,,14.12,s,Raleigh Relays,2022-03-24,,,0.6,Outdoor,https://www.tfrrs.org/results/73808/4441010/Raleigh_Relays/100-Hurdles,TFRRS all_performances
+"Alexandru, Emily",Virginia,ACC,400H,2022,FR-1,,,1:02.47,s,Raleigh Relays,2022-03-24,,,,Outdoor,https://www.tfrrs.org/results/73808/4440997/Raleigh_Relays/400-Hurdles,TFRRS all_performances
+"Parenchuk, Anzhelika",Virginia,ACC,400H,2022,FR-1,,,1:03.65,s,Raleigh Relays,2022-03-24,,,,Outdoor,https://www.tfrrs.org/results/73808/4440997/Raleigh_Relays/400-Hurdles,TFRRS all_performances
+"Comella, Abby",Virginia,ACC,400m,2022,FR-1,,,56.72,s,Raleigh Relays,2022-03-24,,,,Outdoor,https://www.tfrrs.org/results/73808/4441008/Raleigh_Relays/400-Meters,TFRRS all_performances
+"Rice, Zoe",Virginia,ACC,Long Jump,2022,JR-3,,,5.68,m,Raleigh Relays,2022-03-24,,,1.2,Outdoor,https://www.tfrrs.org/results/73808/4440994/Raleigh_Relays/Long-Jump,TFRRS all_performances
+"Seaman, Jada",Virginia,ACC,Long Jump,2022,SO-2,,,6.02,m,Raleigh Relays,2022-03-24,,,1.9,Outdoor,https://www.tfrrs.org/results/73808/4440994/Raleigh_Relays/Long-Jump,TFRRS all_performances
+"Alexandru, Emily",Virginia,ACC,100H,2022,FR-1,,,16.83,s,Duke Invitational,2022-04-07,,,0.6,Outdoor,https://www.tfrrs.org/results/74378/4483043/Duke_Invitational/100-Hurdles,TFRRS all_performances
+"Still, Alix",Virginia,ACC,100H,2022,JR-3,,,13.82,s,Duke Invitational,2022-04-07,,,1.7,Outdoor,https://www.tfrrs.org/results/74378/4483047/Duke_Invitational/100-Hurdles,TFRRS all_performances
+"Alexandru, Emily",Virginia,ACC,400H,2022,FR-1,,,1:05.07,s,Duke Invitational,2022-04-07,,,,Outdoor,https://www.tfrrs.org/results/74378/4483018/Duke_Invitational/400-Hurdles,TFRRS all_performances
+"Parenchuk, Anzhelika",Virginia,ACC,400H,2022,FR-1,,,1:01.56,s,Duke Invitational,2022-04-07,,,,Outdoor,https://www.tfrrs.org/results/74378/4483018/Duke_Invitational/400-Hurdles,TFRRS all_performances
+"Comella, Abby",Virginia,ACC,400m,2022,FR-1,,,56.56,s,Duke Invitational,2022-04-07,,,,Outdoor,https://www.tfrrs.org/results/74378/4483040/Duke_Invitational/400-Meters,TFRRS all_performances
+"Hardy, Jordan",Virginia,ACC,Long Jump,2022,FR-1,,,5.33,m,Duke Invitational,2022-04-07,,,-1.4,Outdoor,https://www.tfrrs.org/results/74378/4483053/Duke_Invitational/Long-Jump,TFRRS all_performances
+"Rice, Zoe",Virginia,ACC,Long Jump,2022,JR-3,,,5.66,m,Duke Invitational,2022-04-07,,,0.7,Outdoor,https://www.tfrrs.org/results/74378/4483053/Duke_Invitational/Long-Jump,TFRRS all_performances
+"Seaman, Jada",Virginia,ACC,Long Jump,2022,SO-2,,,6.12,m,Duke Invitational,2022-04-07,,,1.6,Outdoor,https://www.tfrrs.org/results/74378/4483053/Duke_Invitational/Long-Jump,TFRRS all_performances
+"Still, Alix",Virginia,ACC,Long Jump,2022,JR-3,,,5.77,m,Duke Invitational,2022-04-07,,,1.7,Outdoor,https://www.tfrrs.org/results/74378/4483051/Duke_Invitational/Long-Jump,TFRRS all_performances
+"Still, Alix",Virginia,ACC,100H,2022,JR-3,,,14.42,s,Virginia Challenge,2022-04-22,,,-1.7,Outdoor,https://www.tfrrs.org/results/74753/4516565/Virginia_Challenge/100-Hurdles,TFRRS all_performances
+"Alexandru, Emily",Virginia,ACC,400H,2022,FR-1,,,1:01.77,s,Virginia Challenge,2022-04-22,,,,Outdoor,https://www.tfrrs.org/results/74753/4516543/Virginia_Challenge/400-Hurdles,TFRRS all_performances
+"Parenchuk, Anzhelika",Virginia,ACC,400H,2022,FR-1,,,1:02.68,s,Virginia Challenge,2022-04-22,,,,Outdoor,https://www.tfrrs.org/results/74753/4516543/Virginia_Challenge/400-Hurdles,TFRRS all_performances
+"Comella, Abby",Virginia,ACC,400m,2022,FR-1,,,55.49,s,Virginia Challenge,2022-04-22,,,,Outdoor,https://www.tfrrs.org/results/74753/4516562/Virginia_Challenge/400-Meters,TFRRS all_performances
+"Abulencia, Mia",Virginia,ACC,Long Jump,2022,JR-3,,,5.51,m,Virginia Challenge,2022-04-22,,,1.2,Outdoor,https://www.tfrrs.org/results/74753/4516575/Virginia_Challenge/Long-Jump,TFRRS all_performances
+"Rice, Zoe",Virginia,ACC,Long Jump,2022,JR-3,,,5.61,m,Virginia Challenge,2022-04-22,,,2.0,Outdoor,https://www.tfrrs.org/results/74753/4516575/Virginia_Challenge/Long-Jump,TFRRS all_performances
+"Seaman, Jada",Virginia,ACC,Long Jump,2022,SO-2,,,5.92,m,Virginia Challenge,2022-04-22,,,1.3,Outdoor,https://www.tfrrs.org/results/74753/4516575/Virginia_Challenge/Long-Jump,TFRRS all_performances
+"Still, Alix",Virginia,ACC,Long Jump,2022,JR-3,,,5.79,m,Virginia Challenge,2022-04-22,,,0.5,Outdoor,https://www.tfrrs.org/results/74753/4516575/Virginia_Challenge/Long-Jump,TFRRS all_performances
+"Seaman, Jada",Virginia,ACC,Long Jump,2022,SO-2,,,6.07,m,Penn Relays,2022-04-28,,,-0.4,Outdoor,https://www.tfrrs.org/results/74986/4539297/Penn_Relays/Long-Jump,TFRRS all_performances
+"Alexandru, Emily",Virginia,ACC,400H,2022,FR-1,,,1:02.13,s,Virginia Grand Prix,2022-05-01,,,,Outdoor,https://www.tfrrs.org/results/74992/4540029/Virginia_Grand_Prix/400-Hurdles,TFRRS all_performances
+"Parenchuk, Anzhelika",Virginia,ACC,400m,2022,FR-1,,,56.45,s,Virginia Grand Prix,2022-05-01,,,,Outdoor,https://www.tfrrs.org/results/74992/4540039/Virginia_Grand_Prix/400-Meters,TFRRS all_performances
+"Alexandru, Emily",Virginia,ACC,400H,2022,FR-1,,,1:01.01,s,Virginia High Performance,2022-05-04,,,,Outdoor,https://www.tfrrs.org/results/75048/4543860/Virginia_High_Performance/400-Hurdles,TFRRS all_performances
+"Sabbakhan, Alahna",Virginia,ACC,400m,2022,SO-2,,,56.79,s,Virginia High Performance,2022-05-04,,,,Outdoor,https://www.tfrrs.org/results/75048/4543851/Virginia_High_Performance/400-Meters,TFRRS all_performances
+"Abulencia, Mia",Virginia,ACC,Long Jump,2022,JR-3,,,5.66,m,Virginia High Performance,2022-05-04,,,1.5,Outdoor,https://www.tfrrs.org/results/75048/4543853/Virginia_High_Performance/Long-Jump,TFRRS all_performances
+"Hardy, Jordan",Virginia,ACC,Long Jump,2022,FR-1,,,5.83,m,Virginia High Performance,2022-05-04,,,0.5,Outdoor,https://www.tfrrs.org/results/75048/4543853/Virginia_High_Performance/Long-Jump,TFRRS all_performances
+"Rice, Zoe",Virginia,ACC,Long Jump,2022,JR-3,,,5.98,m,Virginia High Performance,2022-05-04,,,1.1,Outdoor,https://www.tfrrs.org/results/75048/4543853/Virginia_High_Performance/Long-Jump,TFRRS all_performances
+"Still, Alix",Virginia,ACC,Long Jump,2022,JR-3,,,5.65,m,Virginia High Performance,2022-05-04,,,0.8,Outdoor,https://www.tfrrs.org/results/75048/4543853/Virginia_High_Performance/Long-Jump,TFRRS all_performances
+"Still, Alix",Virginia,ACC,100H,2022,JR-3,,,13.84,s,ACC Outdoor Track & Field Championships,2022-05-12,,,1.9,Outdoor,https://www.tfrrs.org/results/75142/4558655/ACC_Outdoor_Track__Field_Championships/100-Hurdles,TFRRS all_performances
+"Alexandru, Emily",Virginia,ACC,400H,2022,FR-1,,,1:02.07,s,ACC Outdoor Track & Field Championships,2022-05-12,,,,Outdoor,https://www.tfrrs.org/results/75142/4556126/ACC_Outdoor_Track__Field_Championships/400-Hurdles,TFRRS all_performances
+"Parenchuk, Anzhelika",Virginia,ACC,400H,2022,FR-1,,,1:02.30,s,ACC Outdoor Track & Field Championships,2022-05-12,,,,Outdoor,https://www.tfrrs.org/results/75142/4556126/ACC_Outdoor_Track__Field_Championships/400-Hurdles,TFRRS all_performances
+"Comella, Abby",Virginia,ACC,400m,2022,FR-1,,,57.18,s,ACC Outdoor Track & Field Championships,2022-05-12,,,,Outdoor,https://www.tfrrs.org/results/75142/4556608/ACC_Outdoor_Track__Field_Championships/400-Meters,TFRRS all_performances
+"Hardy, Jordan",Virginia,ACC,Long Jump,2022,FR-1,,,6.00,m,ACC Outdoor Track & Field Championships,2022-05-12,,,1.9,Outdoor,https://www.tfrrs.org/results/75142/4556121/ACC_Outdoor_Track__Field_Championships/Long-Jump,TFRRS all_performances
+"Rice, Zoe",Virginia,ACC,Long Jump,2022,JR-3,,,5.69,m,ACC Outdoor Track & Field Championships,2022-05-12,,,0.6,Outdoor,https://www.tfrrs.org/results/75142/4556121/ACC_Outdoor_Track__Field_Championships/Long-Jump,TFRRS all_performances
+"Seaman, Jada",Virginia,ACC,Long Jump,2022,SO-2,,,6.09,m,ACC Outdoor Track & Field Championships,2022-05-12,,,0.4,Outdoor,https://www.tfrrs.org/results/75142/4556121/ACC_Outdoor_Track__Field_Championships/Long-Jump,TFRRS all_performances
+"Still, Alix",Virginia,ACC,Long Jump,2022,JR-3,,,5.70,m,ACC Outdoor Track & Field Championships,2022-05-12,,,1.2,Outdoor,https://www.tfrrs.org/results/75142/4556121/ACC_Outdoor_Track__Field_Championships/Long-Jump,TFRRS all_performances
+"Still, Alix",Virginia,ACC,Long Jump,2022,JR-3,,,5.75,m,ACC Outdoor Track & Field Championships,2022-05-12,,,0.7,Outdoor,https://www.tfrrs.org/results/75142/4558659/ACC_Outdoor_Track__Field_Championships/Long-Jump,TFRRS all_performances
+"Rice, Zoe",Virginia,ACC,Long Jump,2022,JR-3,,,5.87,m,NCAA East Preliminary Round,2022-05-25,,,0.8,Outdoor,https://www.tfrrs.org/results/75213/4566142/NCAA_East_Preliminary_Round/Long-Jump,TFRRS all_performances
+"Seaman, Jada",Virginia,ACC,Long Jump,2022,SO-2,,,5.95,m,NCAA East Preliminary Round,2022-05-25,,,-0.3,Outdoor,https://www.tfrrs.org/results/75213/4566142/NCAA_East_Preliminary_Round/Long-Jump,TFRRS all_performances
+"Still, Alix",Virginia,ACC,Long Jump,2022,JR-3,,,5.52,m,NCAA East Preliminary Round,2022-05-25,,,0.7,Outdoor,https://www.tfrrs.org/results/75213/4566142/NCAA_East_Preliminary_Round/Long-Jump,TFRRS all_performances
