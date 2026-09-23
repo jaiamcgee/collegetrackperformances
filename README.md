@@ -1,153 +1,50 @@
 # College Track Performances
 
-This project analyzes NCAA Division I women's outdoor track and field performances across selected schools from the SEC, ACC, Big Ten, and Big 12.
+Women's outdoor track and field results for five selected schools in each of four conference groups, from 2016 through 2026. The events are 400m, 100m hurdles (`100H`), 400m hurdles (`400H`), and long jump. These labels group schools for this project; they do not imply historical conference membership in every season.
 
-## Project Scope
+## Schools and files
 
-The dataset covers the **2016–2026 outdoor seasons** and focuses on four events:
+| Group | Schools | Combined results |
+|---|---|---|
+| SEC | Alabama, Florida, Georgia, Kentucky, South Carolina | `data/processed/sec_YYYY.csv` |
+| ACC | Clemson, Duke, Florida State, Stanford, Virginia | `data/processed/acc_YYYY.csv` |
+| Big Ten | Illinois, Nebraska, Oregon, USC, Washington | `data/processed/bigten_YYYY.csv` |
+| Big 12 | Arizona, Baylor, BYU, Iowa State, Texas Tech | `data/processed/big12_YYYY.csv` |
 
-- 400 meters
-- 100-meter hurdles
-- 400-meter hurdles
-- Long jump
+Each group has an annual CSV for every year from 2016 to 2026. SEC school-year files are in `data/raw/<school>_<year>.csv`; ACC school-year files are in `data/raw/acc/<year>/<school>_<year>.csv`. Big Ten and Big 12 currently have combined annual files only. The empty 2020 ACC, SEC, and Big 12 CSVs retain a header so that the year is represented; Big Ten has four rows for 2020. Empty files do not prove that no qualifying competition occurred elsewhere.
 
-The goal is to collect **meet-by-meet athlete performances**, not only season-best marks. Separate preliminary, quarterfinal, semifinal, and final races are stored as separate rows when available.
+## Data dictionary
 
-For long jump, the dataset stores **one official result per athlete per competition**, rather than every individual jump attempt.
+The annual CSVs share these 18 fields:
 
-## Schools
-
-The project uses five women's teams from each conference group.
-
-### SEC
-- Florida
-- Alabama
-- Georgia
-- South Carolina
-- Kentucky
-
-### ACC
-- Clemson
-- Duke
-- Stanford
-- Florida State
-- Virginia
-
-### Big Ten
-- Oregon
-- Illinois
-- USC
-- Washington
-- Nebraska
-
-### Big 12
-- Texas Tech
-- BYU
-- Arizona
-- Iowa State
-- Baylor
-
-> Conference labels represent the conference group used for this project. Some schools changed conferences during the 2016–2026 period, so historical conference membership may differ from the project grouping.
-
-## Dataset Fields
-
-Each school-year CSV follows this schema:
-
-| Field | Description |
+| Field | Meaning |
 |---|---|
-| `athlete` | Athlete name |
-| `school` | School name |
-| `conference` | Project conference group |
-| `event` | 400m, 100H, 400H, or Long Jump |
-| `season` | Outdoor season year |
-| `class_year` | FR, SO, JR, SR, GR, or redshirt equivalent |
-| `birth_date` | Birth date when reliably available |
-| `age_at_meet` | Athlete age at meet when reliably available |
-| `performance` | Time or official long-jump mark |
-| `unit` | Seconds or meters |
-| `meet` | Meet name |
-| `meet_date` | Meet date |
-| `round` | Preliminary, first round, quarterfinal, semifinal, final, etc. |
-| `place` | Finishing place when available |
-| `wind` | Wind reading when reported |
+| `athlete`, `school`, `conference`, `season` | Athlete, selected school and group, outdoor season year |
+| `event`, `performance`, `unit` | Event and reported time or distance; track units appear as `s` or `seconds`, long jump as `m` |
+| `class_year` | Reported academic year when available, often with an eligibility suffix |
+| `birth_date`, `age_at_meet` | Blank unless reliably sourced; do not infer ages |
+| `meet`, `meet_date`, `round`, `place`, `wind` | Competition details when available |
 | `indoor_outdoor` | Outdoor |
-| `source_url` | Source used to verify the result |
-| `data_status` | Verification/completeness status |
+| `source_url` | Link associated with the result |
+| `data_status` | Source and review status |
 
-Missing birth dates or ages are left blank rather than estimated.
+Track rows retain separate listed races, including rounds when identifiable. Long jump retains the best listed mark per athlete and linked competition, not every attempt. Separate competition links from the same meet remain separate rows. `round` is often blank in the archived listings, so a blank value does not establish which round was run.
 
-## Data Sources
+## Coverage and review status
 
-Historical and recent performances are verified using sources such as:
+| Group | Result rows | Review notes |
+|---|---:|---|
+| ACC | 3,082 | 117 older sourced rows have `legacy_source_needs_review` |
+| SEC | 2,959 | 249 older sourced rows have `legacy_source_needs_review` |
+| Big Ten | 3,065 | TFRRS listings; no separate school-year files yet |
+| Big 12 | 3,511 | TFRRS listings; no separate school-year files yet |
 
-- Official university athletics records
-- NCAA championship results
-- Conference championship results
-- TFRRS athlete and meet-result pages
-- World Athletics
-- Athletic.net
+These are counts after collapsing repeated long-jump attempts in the Big Ten and Big 12 files. They are not a guarantee of exhaustive coverage. The older ACC and SEC rows flagged for review were retained when they did not match the TFRRS all-performances listings. Review their linked sources and possible duplicates before using them as independently verified results. The files may omit meets that are absent from TFRRS, and 2026 represents the available source listings at the time of collection.
 
-Older seasons may require multiple sources because historical result indexing can be incomplete. Files that still need a complete season-coverage audit are marked accordingly in `data_status`.
+ACC and SEC audit counts are in `data/processed/acc_2016_2026_audit.csv` and `data/processed/sec_2016_2026_audit.csv`. For those groups, `scripts/build_acc_all_meets.py` and `scripts/build_sec_all_meets.py` fetch annual TFRRS listings; run them with a year argument, for example `python scripts/build_sec_all_meets.py 2024`. Their companion `audit_*_legacy.py` scripts merge unmatched historical rows from the recorded Git baseline and rewrite the audit files. Running a build script alone overwrites that year's retained legacy rows; run the appropriate legacy audit script afterward. Both audit scripts depend on the old Git commits in this repository's history, so a shallow clone may not suffice.
 
-## Repository Structure
+## Working with the data
 
-```text
-collegetrackperformances/
-├── data/
-│   ├── raw/
-│   │   └── individual school-year CSV files
-│   └── processed/
-│       └── combined conference/year datasets
-├── notebooks/
-├── src/
-├── figures/
-├── README.md
-├── requirements.txt
-└── .gitignore
-```
+For a single year and group, open the corresponding file under `data/processed/`. To combine groups for analysis, concatenate the annual files using the 18 named fields; do not interpret the selected conference labels as historical membership. Normalize `unit` before comparing track times. Check `data_status`, missing class years, wind, and source links for analyses where provenance matters.
 
-## Current Progress
-
-### SEC 2016–2026 Audit
-
-The five selected SEC teams have school-year files in `data/raw/` and combined year files in `data/processed/sec_YYYY.csv`. Run `python scripts/build_sec_all_meets.py` to rebuild from TFRRS all-performances listings and `python scripts/audit_sec_legacy.py` to merge distinct sourced historical rows. The audit counts are in `data/processed/sec_2016_2026_audit.csv`.
-
-Rows from the older files that could not be matched to the TFRRS listings are retained with `data_status=legacy_source_needs_review`. They require source-level review before the combined files can be described as exhaustive or fully verified. The 2020 outdoor files contain headers only because the selected source listings have no target-event results.
-
-### Existing Recent Data
-
-Existing work from the 2023–2025 seasons remains part of the project and will be audited later for missing school-year files and completeness.
-
-The 2023 and 2024 SEC datasets have already been developed substantially. The 2025 files should be treated as working datasets until a full season-coverage check is completed.
-
-The 2026 season will also be reviewed during the final recent-year audit.
-
-## Quality-Control Rules
-
-Before a school-year file is considered complete:
-
-1. Every available target-event performance should be represented.
-2. Separate rounds should remain separate rows.
-3. Long jump should contain one official result per athlete per meet.
-4. DNF, DQ, FS, FOUL, and similar official results should be preserved.
-5. Class year should be verified when possible.
-6. Birth date and age should never be guessed.
-7. Duplicate rows should be checked.
-8. Meet dates and source URLs should be retained.
-9. Historical files should not be labeled exhaustive until coverage has been checked across available sources.
-
-## Special Note for 2020
-
-The 2020 NCAA outdoor track and field season was disrupted by COVID-19. The project will document legitimately missing or canceled outdoor competition rather than inventing normal-season results.
-
-## Project Goals
-
-The completed dataset will support analysis of:
-
-- Athlete improvement across a season
-- Athlete improvement across multiple seasons
-- School-level performance trends
-- Conference-level comparisons
-- Event-specific patterns
-- Long-term performance development
-- Athlete age and class-year relationships where reliable data are available
+The repository no longer includes empty conference-wide placeholder files or an empty `all_conferences.csv`. Produce an all-groups dataset from the annual files when needed, so it reflects the current data.
