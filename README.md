@@ -108,25 +108,11 @@ collegetrackperformances/
 
 ## Current Progress
 
-### Historical SEC Collection
+### SEC 2016–2026 Audit
 
-The project is currently expanding backward from the recent seasons to **2016**.
+The five selected SEC teams have school-year files in `data/raw/` and combined year files in `data/processed/sec_YYYY.csv`. Run `python scripts/build_sec_all_meets.py` to rebuild from TFRRS all-performances listings and `python scripts/audit_sec_legacy.py` to merge distinct sourced historical rows. The audit counts are in `data/processed/sec_2016_2026_audit.csv`.
 
-Current 2016 SEC progress:
-
-- Florida — added
-- Alabama — added
-- Georgia — added
-- South Carolina — added
-- Kentucky — next
-
-After all five SEC schools are complete for 2016, they can be combined into:
-
-```text
-data/processed/sec_2016.csv
-```
-
-The same workflow will then continue through 2017 and 2018 before moving into later historical batches.
+Rows from the older files that could not be matched to the TFRRS listings are retained with `data_status=legacy_source_needs_review`. They require source-level review before the combined files can be described as exhaustive or fully verified. The 2020 outdoor files contain headers only because the selected source listings have no target-event results.
 
 ### Existing Recent Data
 
