@@ -1,0 +1,6 @@
+athlete,school,conference,event,season,class_year,birth_date,age_at_meet,performance,unit,meet,meet_date,round,place,wind,indoor_outdoor,source_url,data_status
+Emily Alexandru,Virginia,ACC,400H,2023,SO-2,,,57.79,s,Virginia Challenge,2023-04-20,Final,1.0,,Outdoor,https://tfrrs.org/results/80367/4855102/Virginia_Challenge/Womens-400-Hurdles,multi_source_verified_available
+Emily Alexandru,Virginia,ACC,400H,2023,SO-2,,,59.3,s,NCAA East Preliminary Round,2023-05-25,First Round,32.0,,Outdoor,https://flashresults.ncaa.com/Outdoor/2023/FirstRounds/East/030-1_compiled.htm,multi_source_verified_available
+Jada Seaman,Virginia,ACC,Long Jump,2023,SR-4,,,6.26,m,2023 Outdoor Season,2023,,,,Outdoor,https://virginiasports.com/news/2023/05/23/cavaliers-set-for-ncaa-east-preliminaries,multi_source_verified_available
+Alix Still,Virginia,ACC,Long Jump,2023,SR-4,,,6.17,m,2023 Outdoor Season,2023,,,,Outdoor,https://virginiasports.com/news/2023/05/23/cavaliers-set-for-ncaa-east-preliminaries,multi_source_verified_available
+Jada Pierre,Virginia,ACC,100H,2023,FR-1,,,13.84,s,Virginia Quadrangular,2023-04-01,Final,3.0,4.4,Outdoor,https://www.tfrrs.org/results/79185/4766990/Virginia_Quadrangular/100-Hurdles,multi_source_verified_available
