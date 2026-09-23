@@ -1,14 +1,3 @@
-athlete,school,conference,event,season,class_year,birth_date,age_at_meet,performance,unit,meet,meet_date,round,place,wind,indoor_outdoor,source_url,data_status
-Allie Jones,Stanford,ACC,100H,2021,,,,13.99,s,Hornet Invite,2021-03-20,Final,1,2.3,Outdoor,https://gostanford.com/news/2021/03/20/back-on-track-5,Stanford was Pac-12 in 2021; grouped under ACC for project; verified result
-Samantha Thomas,Stanford,ACC,400H,2021,,,,62.17,s,Hornet Invite,2021-03-20,Final,1,,Outdoor,https://www.tfrrs.org/athletes/7720910/Toledo/Samantha_Thomas,Stanford was Pac-12 in 2021; grouped under ACC for project; verified result
-Ashlan Best,Stanford,ACC,400m,2021,,,,54.54,s,Hornet Invite,2021-03-20,Final,1,,Outdoor,https://gostanford.com/news/2021/03/20/back-on-track-5,Stanford was Pac-12 in 2021; grouped under ACC for project; verified result
-Carolyn Wilson,Stanford,ACC,400m,2021,,,,57.06,s,Hornet Invite,2021-03-20,Final,4,,Outdoor,https://gostanford.com/news/2021/03/20/back-on-track-5,Stanford was Pac-12 in 2021; grouped under ACC for project; verified result
-Sarah Walker,Stanford,ACC,400m,2021,,,,58.64,s,Hornet Invite,2021-03-20,Final,5,,Outdoor,https://gostanford.com/news/2021/03/20/back-on-track-5,Stanford was Pac-12 in 2021; grouped under ACC for project; verified result
-Samantha Thomas,Stanford,ACC,400H,2021,,,,61.85,s,Stanford Invitational,2021-04-02,Final,1,,Outdoor,https://www.tfrrs.org/athletes/7720910/Toledo/Samantha_Thomas,Stanford was Pac-12 in 2021; grouped under ACC for project; verified result
-Samantha Thomas,Stanford,ACC,400H,2021,,,,61.91,s,West Coast Classic - Arizona,2021-04-17,Final,5,,Outdoor,https://www.tfrrs.org/athletes/7720910/Toledo/Samantha_Thomas,Stanford was Pac-12 in 2021; grouped under ACC for project; verified result
-Samantha Thomas,Stanford,ACC,400H,2021,,,,62.13,s,Oregon Relays,2021-04-23,Final,4,,Outdoor,https://www.tfrrs.org/athletes/7720910/Toledo/Samantha_Thomas,Stanford was Pac-12 in 2021; grouped under ACC for project; verified result
-Allie Jones,Stanford,ACC,Long Jump,2021,,,,5.96,m,Oregon Relays,2021-04-23,Final,2,,Outdoor,https://gostanford.com/news/2021/04/24/breakthroughs-at-oregon-relays,Stanford was Pac-12 in 2021; grouped under ACC for project; verified result
-Samantha Thomas,Stanford,ACC,400H,2021,,,,61.20,s,Cal vs. Stanford Big Meet,2021-05-01,Final,1,,Outdoor,https://www.tfrrs.org/athletes/7720910/Toledo/Samantha_Thomas,Stanford was Pac-12 in 2021; grouped under ACC for project; verified result
-Samantha Thomas,Stanford,ACC,400H,2021,,,,61.30,s,Pac-12 Track & Field Championships,2021-05-14,Final,,,Outdoor,https://www.tfrrs.org/athletes/7720910/Toledo/Samantha_Thomas,Stanford was Pac-12 in 2021; grouped under ACC for project; verified result
-Ashlan Best,Stanford,ACC,400m,2021,,,,54.09,s,Pac-12 Track & Field Championships,2021-05-15,Final,,,Outdoor,https://storage.googleapis.com/stanford-prod/2024/08/29/IEyb2A5hUCttkSMqIHP3EtXlfEqj8xz7x89wBZKd.pdf,Stanford was Pac-12 in 2021; grouped under ACC for project; verified result
-Allie Jones,Stanford,ACC,100H,2021,,,,13.37,s,NCAA Division I Outdoor Championships,2021-06-11,Heptathlon,,,Outdoor,https://storage.googleapis.com/stanford-prod/2024/08/29/IEyb2A5hUCttkSMqIHP3EtXlfEqj8xz7x89wBZKd.pdf,Stanford was Pac-12 in 2021; grouped under ACC for project; verified result
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>ServerBusy</Code><Message>The server is busy.
+RequestId:51c5b493-501e-00df-79fd-4a0e8b000000
+Time:2026-09-23T01:49:13.0021963Z</Message></Error>
