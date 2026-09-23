@@ -1,0 +1,5 @@
+index,athlete,school,conference,event,season,class_year,birth_date,age_at_meet,performance,unit,meet,meet_date,round,place,wind,indoor_outdoor,source_url,data_status
+0,"Bernard-Joseph, Breanna",USC,Big Ten,400m,2020,SO-2,,,55.92,seconds,Beach Opener,2020-03-07,,,,Outdoor,https://www.tfrrs.org/results/65783/4002931/Beach_Opener/400-Meters,TFRRS all_performances
+1,"Fields, Jacqueline",USC,Big Ten,Long Jump,2020,SO-2,,,5.02,m,Beach Opener,2020-03-07,,,+0.0,Outdoor,https://www.tfrrs.org/results/65783/4002915/Beach_Opener/Long-Jump,TFRRS all_performances
+2,"Fields, Jacqueline",USC,Big Ten,Long Jump,2020,SO-2,,,5.12,m,Beach Opener,2020-03-07,,,0.6,Outdoor,https://www.tfrrs.org/results/65783/4002915/Beach_Opener/Long-Jump,TFRRS all_performances
+3,"Fields, Jacqueline",USC,Big Ten,Long Jump,2020,SO-2,,,5.15,m,Beach Opener,2020-03-07,,,0.2,Outdoor,https://www.tfrrs.org/results/65783/4002915/Beach_Opener/Long-Jump,TFRRS all_performances
