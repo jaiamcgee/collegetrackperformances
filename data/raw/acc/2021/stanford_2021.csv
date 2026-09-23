@@ -1,3 +1,28 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>ServerBusy</Code><Message>The server is busy.
-RequestId:51c5b493-501e-00df-79fd-4a0e8b000000
-Time:2026-09-23T01:49:13.0021963Z</Message></Error>
+athlete,school,conference,event,season,class_year,birth_date,age_at_meet,performance,unit,meet,meet_date,round,place,wind,indoor_outdoor
+Ashlan Best,Stanford,ACC,400m,2021,JR-3,,,54.54,s,Hornet Invite 2021,2021-03-20,,1,,Outdoor
+Carolyn Wilson,Stanford,ACC,400m,2021,SR-4,,,57.06,s,Hornet Invite 2021,2021-03-20,,4,,Outdoor
+Sarah Walker,Stanford,ACC,400m,2021,JR-3,,,58.64,s,Hornet Invite 2021,2021-03-20,,5,,Outdoor
+Allie Jones,Stanford,ACC,100H,2021,SO-2,,,13.99,s,Hornet Invite 2021,2021-03-20,,1,2.3,Outdoor
+Samantha Thomas,Stanford,ACC,400H,2021,FR-1,,,62.17,s,Hornet Invite 2021,2021-03-20,,1,,Outdoor
+Ashlan Best,Stanford,ACC,400m,2021,JR-3,,,54.09,s,2021 West Coast Classic- Arizona,2021-04-17,,3,,Outdoor
+Allie Jones,Stanford,ACC,100H,2021,SO-2,,,13.55,s,2021 West Coast Classic- Arizona,2021-04-17,,3,0.5,Outdoor
+Samantha Thomas,Stanford,ACC,400H,2021,FR-1,,,61.91,s,2021 West Coast Classic- Arizona,2021-04-17,,5,,Outdoor
+Allie Jones,Stanford,ACC,Long Jump,2021,SO-2,,,5.62,m,2021 West Coast Classic- Arizona,2021-04-17,,10,1.7,Outdoor
+Yinka Braimah,Stanford,ACC,Long Jump,2021,SO-2,,,5.61,m,2021 West Coast Classic- Arizona,2021-04-17,,11,2.8,Outdoor
+Samantha Thomas,Stanford,ACC,400H,2021,FR-1,,,61.85,s,Stanford Invitational,2021-04-03,,1,,Outdoor
+Samantha Thomas,Stanford,ACC,400H,2021,FR-1,,,62.13,s,Oregon Relays,2021-04-23,,4,,Outdoor
+Allie Jones,Stanford,ACC,Long Jump,2021,SO-2,,,5.96,m,Oregon Relays,2021-04-23,,2,,Outdoor
+Allie Jones,Stanford,ACC,100H,2021,SO-2,,,13.54,s,Cal vs. Stanford Big Meet,2021-05-01,,2,,Outdoor
+Samantha Thomas,Stanford,ACC,400H,2021,FR-1,,,61.20,s,Cal vs. Stanford Big Meet,2021-05-01,,1,,Outdoor
+Allie Jones,Stanford,ACC,Long Jump,2021,SO-2,,,5.98,m,Cal vs. Stanford Big Meet,2021-05-01,,1,wind-aided,Outdoor
+Aria Small,Stanford,ACC,Long Jump,2021,SO-2,,,5.62,m,Cal vs. Stanford Big Meet,2021-05-01,,4,,Outdoor
+Ashlan Best,Stanford,ACC,400m,2021,JR-3,,,54.59,s,Pac-12 Track & Field Championships,2021-05-14,Prelim,9,,Outdoor
+Allie Jones,Stanford,ACC,100H,2021,SO-2,,,14.34,s,Pac-12 Track & Field Championships,2021-05-14,Heptathlon,1,-0.2,Outdoor
+Samantha Thomas,Stanford,ACC,400H,2021,FR-1,,,61.30,s,Pac-12 Track & Field Championships,2021-05-14,Prelim,13,,Outdoor
+Allie Jones,Stanford,ACC,Long Jump,2021,SO-2,,,5.96,m,Pac-12 Track & Field Championships,2021-05-14,Heptathlon,2,1.4,Outdoor
+Yinka Braimah,Stanford,ACC,Long Jump,2021,SO-2,,,5.48,m,Pac-12 Track & Field Championships,2021-05-14,,16,,Outdoor
+Aria Small,Stanford,ACC,Long Jump,2021,SO-2,,,FOUL,mark,Pac-12 Track & Field Championships,2021-05-14,,,,Outdoor
+Allie Jones,Stanford,ACC,100H,2021,SO-2,,,13.23,s,NCAA Division I West Preliminary Round,2021-05-26,Prelim,22,2.3,Outdoor
+Allie Jones,Stanford,ACC,100H,2021,SO-2,,,DQ,mark,NCAA Division I West Preliminary Round,2021-05-26,Quarterfinal,,,Outdoor
+Allie Jones,Stanford,ACC,100H,2021,SO-2,,,13.37,s,NCAA Division I Track & Field Championships,2021-06-09,Heptathlon,4,-0.2,Outdoor
+Allie Jones,Stanford,ACC,Long Jump,2021,SO-2,,,5.82,m,NCAA Division I Track & Field Championships,2021-06-09,Heptathlon,9,-0.1,Outdoor
