@@ -1,0 +1,238 @@
+athlete,school,conference,event,season,class_year,birth_date,age_at_meet,performance,unit,meet,meet_date,round,place,wind,indoor_outdoor,source_url,data_status,gender,source
+Antoinette Van der Merwe,Clemson,ACC,100H,2022,SO,,,13.43,s,Georgia Tech Yellow Jacket Invitational,2022-03-18,Final,,0.4,Outdoor,https://m.tfrrs.org/athletes/7738675/Clemson/Antoinette_Van_der_Merwe,verified 2022 outdoor result; multi-source working audit,,
+Mackenzie Osher,Clemson,ACC,400H,2022,FR,,,64.65,s,Georgia Tech Yellow Jacket Invitational,2022-03-18,Final,12.0,,Outdoor,https://indiana.tfrrs.org/athletes/7974396/Clemson/Mackenzie_Osher,verified 2022 outdoor result; multi-source working audit,,
+Olivia Cooney,Clemson,ACC,400H,2022,JR,,,62.07,s,Georgia Tech Yellow Jacket Invitational,2022-03-18,Final,3.0,,Outdoor,https://tfrrs.org/athletes/7004000/Clemson/Olivia_Cooney.html,verified 2022 outdoor result; multi-source working audit,,
+Courtney Williams,Clemson,ACC,400m,2022,SO,,,53.99,s,Georgia Tech Yellow Jacket Invitational,2022-03-18,Final,1.0,,Outdoor,https://api.tfrrs.org/athletes/7746088/Clemson/Courtney_Williams.html,verified 2022 outdoor result; multi-source working audit,,
+Trishauna Hemmings,Clemson,ACC,400m,2022,SR,,,56.65,s,Georgia Tech Yellow Jacket Invitational,2022-03-18,Final,10.0,,Outdoor,https://www.tfrrs.org/athletes/7572118/Clemson/Trishauna_Hemmings.html,verified 2022 outdoor result; multi-source working audit,,
+Antoinette Van der Merwe,Clemson,ACC,100H,2022,SO,,,13.69,s,2022 94th Clyde Littlefield Texas Relays,2022-03-23,Prelim,,1.1,Outdoor,https://m.tfrrs.org/athletes/7738675/Clemson/Antoinette_Van_der_Merwe,verified 2022 outdoor result; multi-source working audit,,
+Mackenzie Osher,Clemson,ACC,400H,2022,FR,,,63.22,s,2022 94th Clyde Littlefield Texas Relays,2022-03-23,Prelim,26.0,,Outdoor,https://indiana.tfrrs.org/athletes/7974396/Clemson/Mackenzie_Osher,verified 2022 outdoor result; multi-source working audit,,
+Antoinette Van der Merwe,Clemson,ACC,100H,2022,SO,,,13.82,s,Florida Relays,2022-03-31,Final,,-0.8,Outdoor,https://m.tfrrs.org/athletes/7738675/Clemson/Antoinette_Van_der_Merwe,verified 2022 outdoor result; multi-source working audit,,
+Trishauna Hemmings,Clemson,ACC,100H,2022,SR,,,13.67,s,Florida Relays,2022-03-31,Final,5.0,-0.4,Outdoor,https://www.tfrrs.org/athletes/7572118/Clemson/Trishauna_Hemmings.html,verified 2022 outdoor result; multi-source working audit,,
+Mackenzie Osher,Clemson,ACC,400H,2022,FR,,,62.76,s,Florida Relays,2022-03-31,Final,35.0,,Outdoor,https://indiana.tfrrs.org/athletes/7974396/Clemson/Mackenzie_Osher,verified 2022 outdoor result; multi-source working audit,,
+Nicolee Foster,Clemson,ACC,400H,2022,SR,,,61.26,s,Florida Relays,2022-03-31,Final,30.0,,Outdoor,https://tf.tfrrs.org/athletes/7490019/Clemson/Nicolee_Foster.html,verified 2022 outdoor result; multi-source working audit,,
+Olivia Cooney,Clemson,ACC,400H,2022,JR,,,62.40,s,Florida Relays,2022-03-31,Final,34.0,,Outdoor,https://tfrrs.org/athletes/7004000/Clemson/Olivia_Cooney.html,verified 2022 outdoor result; multi-source working audit,,
+Courtney Williams,Clemson,ACC,400m,2022,SO,,,54.26,s,Florida Relays,2022-03-31,Final,7.0,,Outdoor,https://api.tfrrs.org/athletes/7746088/Clemson/Courtney_Williams.html,verified 2022 outdoor result; multi-source working audit,,
+Antoinette Van der Merwe,Clemson,ACC,100H,2022,SO,,,13.47,s,Tennessee Relays,2022-04-07,Final,,1.4,Outdoor,https://m.tfrrs.org/athletes/7738675/Clemson/Antoinette_Van_der_Merwe,verified 2022 outdoor result; multi-source working audit,,
+Trishauna Hemmings,Clemson,ACC,100H,2022,SR,,,13.24,s,Tennessee Relays,2022-04-07,Final,1.0,1.4,Outdoor,https://www.tfrrs.org/athletes/7572118/Clemson/Trishauna_Hemmings.html,verified 2022 outdoor result; multi-source working audit,,
+Mackenzie Osher,Clemson,ACC,400H,2022,FR,,,65.08,s,Tennessee Relays,2022-04-07,Final,4.0,,Outdoor,https://indiana.tfrrs.org/athletes/7974396/Clemson/Mackenzie_Osher,verified 2022 outdoor result; multi-source working audit,,
+Nicolee Foster,Clemson,ACC,400H,2022,SR,,,66.21,s,Tennessee Relays,2022-04-07,Final,6.0,,Outdoor,https://tf.tfrrs.org/athletes/7490019/Clemson/Nicolee_Foster.html,verified 2022 outdoor result; multi-source working audit,,
+Olivia Cooney,Clemson,ACC,400H,2022,JR,,,65.56,s,Tennessee Relays,2022-04-07,Final,7.0,,Outdoor,https://tfrrs.org/athletes/7004000/Clemson/Olivia_Cooney.html,verified 2022 outdoor result; multi-source working audit,,
+Antoinette Van der Merwe,Clemson,ACC,100H,2022,SO,,,13.63,s,UF Tom Jones Memorial,2022-04-15,Final,,1.5,Outdoor,https://m.tfrrs.org/athletes/7738675/Clemson/Antoinette_Van_der_Merwe,verified 2022 outdoor result; multi-source working audit,,
+Trishauna Hemmings,Clemson,ACC,100H,2022,SR,,,13.19,s,UF Tom Jones Memorial,2022-04-15,Prelim,8.0,1.5,Outdoor,https://www.tfrrs.org/athletes/7572118/Clemson/Trishauna_Hemmings.html,verified 2022 outdoor result; multi-source working audit,,
+Mackenzie Osher,Clemson,ACC,400H,2022,FR,,,62.01,s,UF Tom Jones Memorial,2022-04-15,Final,19.0,,Outdoor,https://indiana.tfrrs.org/athletes/7974396/Clemson/Mackenzie_Osher,verified 2022 outdoor result; multi-source working audit,,
+Nicolee Foster,Clemson,ACC,400H,2022,SR,,,60.35,s,UF Tom Jones Memorial,2022-04-15,Final,13.0,,Outdoor,https://tf.tfrrs.org/athletes/7490019/Clemson/Nicolee_Foster.html,verified 2022 outdoor result; multi-source working audit,,
+Olivia Cooney,Clemson,ACC,400H,2022,JR,,,62.80,s,UF Tom Jones Memorial,2022-04-15,Final,24.0,,Outdoor,https://tfrrs.org/athletes/7004000/Clemson/Olivia_Cooney.html,verified 2022 outdoor result; multi-source working audit,,
+Trishauna Hemmings,Clemson,ACC,100H,2022,SR,,,13.27,s,UF Tom Jones Memorial,2022-04-16,Final,8.0,1.9,Outdoor,https://www.tfrrs.org/athletes/7572118/Clemson/Trishauna_Hemmings.html,verified 2022 outdoor result; multi-source working audit,,
+Mackenzie Osher,Clemson,ACC,400H,2022,FR,,,62.92,s,UofSC Open,2022-04-23,Final,12.0,,Outdoor,https://indiana.tfrrs.org/athletes/7974396/Clemson/Mackenzie_Osher,verified 2022 outdoor result; multi-source working audit,,
+Olivia Cooney,Clemson,ACC,400H,2022,JR,,,62.59,s,UofSC Open,2022-04-23,Final,11.0,,Outdoor,https://tfrrs.org/athletes/7004000/Clemson/Olivia_Cooney.html,verified 2022 outdoor result; multi-source working audit,,
+Courtney Williams,Clemson,ACC,400m,2022,SO,,,54.60,s,UofSC Open,2022-04-23,Final,10.0,,Outdoor,https://api.tfrrs.org/athletes/7746088/Clemson/Courtney_Williams.html,verified 2022 outdoor result; multi-source working audit,,
+Antoinette Van der Merwe,Clemson,ACC,100H,2022,SO,,,13.94,s,Penn Relays,2022-04-28,Final,,0.5,Outdoor,https://m.tfrrs.org/athletes/7738675/Clemson/Antoinette_Van_der_Merwe,verified 2022 outdoor result; multi-source working audit,,
+Trishauna Hemmings,Clemson,ACC,100H,2022,SR,,,13.41,s,Penn Relays,2022-04-28,Prelim,,-0.1,Outdoor,https://www.tfrrs.org/athletes/7572118/Clemson/Trishauna_Hemmings.html,verified 2022 outdoor result; multi-source working audit,,
+Kori Carter,Clemson,ACC,400H,2022,JR,,,62.18,s,Penn Relays,2022-04-28,Final,,,Outdoor,https://tf.tfrrs.org/athletes/7490020/Clemson/Kori_Carter,verified 2022 outdoor result; multi-source working audit,,
+Mackenzie Osher,Clemson,ACC,400H,2022,FR,,,61.40,s,Penn Relays,2022-04-28,Final,,,Outdoor,https://indiana.tfrrs.org/athletes/7974396/Clemson/Mackenzie_Osher,verified 2022 outdoor result; multi-source working audit,,
+Nicolee Foster,Clemson,ACC,400H,2022,SR,,,61.94,s,Penn Relays,2022-04-28,Final,,,Outdoor,https://tf.tfrrs.org/athletes/7490019/Clemson/Nicolee_Foster.html,verified 2022 outdoor result; multi-source working audit,,
+Olivia Cooney,Clemson,ACC,400H,2022,JR,,,67.14,s,Penn Relays,2022-04-28,Final,,,Outdoor,https://tfrrs.org/athletes/7004000/Clemson/Olivia_Cooney.html,verified 2022 outdoor result; multi-source working audit,,
+Trishauna Hemmings,Clemson,ACC,100H,2022,SR,,,13.62,s,Penn Relays,2022-04-30,Final,,0.3,Outdoor,https://www.tfrrs.org/athletes/7572118/Clemson/Trishauna_Hemmings.html,verified 2022 outdoor result; multi-source working audit,,
+Antoinette Van der Merwe,Clemson,ACC,100H,2022,SO,,,13.36,s,ACC Outdoor Track & Field Championships,2022-05-12,Prelim,,0.5,Outdoor,https://m.tfrrs.org/athletes/7738675/Clemson/Antoinette_Van_der_Merwe,verified 2022 outdoor result; multi-source working audit,,
+Favor Ezewuzie,Clemson,ACC,100H,2022,SR,,,13.58,s,ACC Outdoor Track & Field Championships,2022-05-12,Prelim,5.0,0.7,Outdoor,https://www.nolefan.org/ref/tf2022_05_14_sid.pdf,verified 2022 outdoor result; multi-source working audit,,
+Trishauna Hemmings,Clemson,ACC,100H,2022,SR,,,13.20,s,ACC Outdoor Track & Field Championships,2022-05-12,Prelim,1.0,0.5,Outdoor,https://www.tfrrs.org/athletes/7572118/Clemson/Trishauna_Hemmings.html,verified 2022 outdoor result; multi-source working audit,,
+Kori Carter,Clemson,ACC,400H,2022,JR,,,DQ,s,ACC Outdoor Track & Field Championships,2022-05-12,Prelim,,,Outdoor,https://tf.tfrrs.org/athletes/7490020/Clemson/Kori_Carter,verified 2022 outdoor result; multi-source working audit,,
+Mackenzie Osher,Clemson,ACC,400H,2022,FR,,,62.74,s,ACC Outdoor Track & Field Championships,2022-05-12,Prelim,14.0,,Outdoor,https://indiana.tfrrs.org/athletes/7974396/Clemson/Mackenzie_Osher,verified 2022 outdoor result; multi-source working audit,,
+Nicolee Foster,Clemson,ACC,400H,2022,SR,,,61.01,s,ACC Outdoor Track & Field Championships,2022-05-12,Prelim,8.0,,Outdoor,https://tf.tfrrs.org/athletes/7490019/Clemson/Nicolee_Foster.html,verified 2022 outdoor result; multi-source working audit,,
+Olivia Cooney,Clemson,ACC,400H,2022,JR,,,63.33,s,ACC Outdoor Track & Field Championships,2022-05-12,Prelim,15.0,,Outdoor,https://tfrrs.org/athletes/7004000/Clemson/Olivia_Cooney.html,verified 2022 outdoor result; multi-source working audit,,
+Courtney Williams,Clemson,ACC,400m,2022,SO,,,54.05,s,ACC Outdoor Track & Field Championships,2022-05-12,Prelim,8.0,,Outdoor,https://api.tfrrs.org/athletes/7746088/Clemson/Courtney_Williams.html,verified 2022 outdoor result; multi-source working audit,,
+Antoinette Van der Merwe,Clemson,ACC,100H,2022,SO,,,13.49,s,ACC Outdoor Track & Field Championships,2022-05-14,Final,,0.3,Outdoor,https://m.tfrrs.org/athletes/7738675/Clemson/Antoinette_Van_der_Merwe,verified 2022 outdoor result; multi-source working audit,,
+Favor Ezewuzie,Clemson,ACC,100H,2022,SR,,,13.74,s,ACC Outdoor Track & Field Championships,2022-05-14,Final,8.0,0.3,Outdoor,https://www.nolefan.org/ref/tf2022_05_14_sid.pdf,verified 2022 outdoor result; multi-source working audit,,
+Trishauna Hemmings,Clemson,ACC,100H,2022,SR,,,13.00,s,ACC Outdoor Track & Field Championships,2022-05-14,Final,1.0,0.3,Outdoor,https://www.tfrrs.org/athletes/7572118/Clemson/Trishauna_Hemmings.html,verified 2022 outdoor result; multi-source working audit,,
+Nicolee Foster,Clemson,ACC,400H,2022,SR,,,60.58,s,ACC Outdoor Track & Field Championships,2022-05-14,Final,7.0,,Outdoor,https://tf.tfrrs.org/athletes/7490019/Clemson/Nicolee_Foster.html,verified 2022 outdoor result; multi-source working audit,,
+Courtney Williams,Clemson,ACC,400m,2022,SO,,,53.36,s,ACC Outdoor Track & Field Championships,2022-05-14,Final,6.0,,Outdoor,https://api.tfrrs.org/athletes/7746088/Clemson/Courtney_Williams.html,verified 2022 outdoor result; multi-source working audit,,
+Antoinette Van der Merwe,Clemson,ACC,100H,2022,SO,,,13.91,s,NCAA East Preliminary Round,2022-05-26,Round 1,,-1.4,Outdoor,https://m.tfrrs.org/athletes/7738675/Clemson/Antoinette_Van_der_Merwe,verified 2022 outdoor result; multi-source working audit,,
+Trishauna Hemmings,Clemson,ACC,100H,2022,SR,,,13.23,s,NCAA East Preliminary Round,2022-05-26,Round 1,5.0,-0.6,Outdoor,https://www.tfrrs.org/athletes/7572118/Clemson/Trishauna_Hemmings.html,verified 2022 outdoor result; multi-source working audit,,
+Courtney Williams,Clemson,ACC,400m,2022,SO,,,53.72,s,NCAA East Preliminary Round,2022-05-26,Round 1,31.0,,Outdoor,https://api.tfrrs.org/athletes/7746088/Clemson/Courtney_Williams.html,verified 2022 outdoor result; multi-source working audit,,
+Trishauna Hemmings,Clemson,ACC,100H,2022,SR,,,13.13,s,NCAA East Preliminary Round,2022-05-28,Quarterfinal,6.0,-0.7,Outdoor,https://www.tfrrs.org/athletes/7572118/Clemson/Trishauna_Hemmings.html,verified 2022 outdoor result; multi-source working audit,,
+Trishauna Hemmings,Clemson,ACC,100H,2022,SR,,,13.04,s,NCAA Division I Outdoor Track & Field Championships,2022-06-09,Semifinal,11.0,0.5,Outdoor,https://www.tfrrs.org/athletes/7572118/Clemson/Trishauna_Hemmings.html,verified 2022 outdoor result; multi-source working audit,,
+Brianna Smith,Duke,ACC,100H,2022,SO,,,14.45,s,High Point - Bob Davidson Memorial,2022-03-18,Final,,1.7,Outdoor,https://nh.tfrrs.org/athletes/7723645/Duke/Brianna_Smith,verified 2022 outdoor result,,
+Zoe Hughes,Duke,ACC,100H,2022,GR,,,13.93,s,High Point - Bob Davidson Memorial,2022-03-18,Final,,3.1,Outdoor,https://www.tfrrs.org/athletes/7723651/Duke/Zoe_Hughes.html,verified 2022 outdoor result,,
+Lauren Hoffman,Duke,ACC,400H,2022,GR,,,56.53,s,High Point - Bob Davidson Memorial,2022-03-18,Final,1.0,,Outdoor,https://goduke.com/sports/track-and-field/roster/lauren-hoffman/17738,verified 2022 outdoor result,,
+Meredith Sims,Duke,ACC,400m,2022,FR,,,59.59,s,High Point - Bob Davidson Memorial,2022-03-18,Final,15.0,,Outdoor,https://indiana.tfrrs.org/athletes/7975661/Duke/Meredith_Sims,verified 2022 outdoor result,,
+Zoe Hughes,Duke,ACC,Long Jump,2022,GR,,,6.04,m,High Point - Bob Davidson Memorial,2022-03-18,Final,,2.9,Outdoor,https://www.tfrrs.org/athletes/7723651/Duke/Zoe_Hughes.html,verified 2022 outdoor result,,
+Erin Marsh,Duke,ACC,100H,2022,GR,,,13.69,s,Texas Relays,2022-03-23,Heptathlon,3.0,-0.5,Outdoor,https://www.tfrrs.org/athletes/6583376/Duke/Erin_Marsh.html,verified 2022 outdoor result,,
+Isabel Wakefield,Duke,ACC,100H,2022,SR,,,13.26,s,Texas Relays,2022-03-23,Heptathlon,1.0,1.6,Outdoor,https://indiana.tfrrs.org/athletes/7020659/Duke/Isabel_Wakefield,verified 2022 outdoor result,,
+Lauren Hoffman,Duke,ACC,400H,2022,GR,,,56.55,s,Texas Relays,2022-03-23,Final,2.0,,Outdoor,https://goduke.com/sports/track-and-field/roster/lauren-hoffman/17738,verified 2022 outdoor result,,
+Erin Marsh,Duke,ACC,Long Jump,2022,GR,,,5.99,m,Texas Relays,2022-03-23,Heptathlon,4.0,1.9,Outdoor,https://www.tfrrs.org/athletes/6583376/Duke/Erin_Marsh.html,verified 2022 outdoor result,,
+Isabel Wakefield,Duke,ACC,Long Jump,2022,SR,,,6.02,m,Texas Relays,2022-03-23,Heptathlon,3.0,1.0,Outdoor,https://indiana.tfrrs.org/athletes/7020659/Duke/Isabel_Wakefield,verified 2022 outdoor result,,
+Zoe Hughes,Duke,ACC,Long Jump,2022,GR,,,5.98,m,Texas Relays,2022-03-23,Heptathlon,5.0,2.1,Outdoor,https://www.tfrrs.org/athletes/7723651/Duke/Zoe_Hughes.html,verified 2022 outdoor result,,
+Carly King,Duke,ACC,400m,2022,JR,,,55.75,s,Raleigh Relays,2022-03-24,Final,,,Outdoor,https://nh.tfrrs.org/athletes/7527990/Duke/Carly_King.html,verified 2022 outdoor result,,
+Meredith Sims,Duke,ACC,400m,2022,FR,,,59.40,s,Raleigh Relays,2022-03-24,Final,74.0,,Outdoor,https://indiana.tfrrs.org/athletes/7975661/Duke/Meredith_Sims,verified 2022 outdoor result,,
+Nikki Merritt,Duke,ACC,Long Jump,2022,SR,,,5.85,m,Raleigh Relays,2022-03-24,Final,5.0,,Outdoor,https://goduke.com/sports/track-and-field/roster/nikki-merritt/17760,verified 2022 outdoor result,,
+Nikki Merritt,Duke,ACC,Long Jump,2022,SR,,,5.79,m,Virginia Invitational,2022-04-03,Final,9.0,,Outdoor,https://goduke.com/sports/track-and-field/roster/nikki-merritt/17760,verified 2022 outdoor result,,
+Brianna Smith,Duke,ACC,100H,2022,SO,,,14.30,s,Duke Invitational,2022-04-07,Final,,1.8,Outdoor,https://nh.tfrrs.org/athletes/7723645/Duke/Brianna_Smith,verified 2022 outdoor result,,
+Chyler Turner,Duke,ACC,100H,2022,FR,,,13.76,s,Duke Invitational,2022-04-07,Final,6.0,-0.3,Outdoor,https://indiana.tfrrs.org/athletes/7975662/Duke/Chyler_Turner,verified 2022 outdoor result,,
+Isabel Wakefield,Duke,ACC,100H,2022,SR,,,13.26,s,Duke Invitational,2022-04-07,Final,3.0,-0.3,Outdoor,https://indiana.tfrrs.org/athletes/7020659/Duke/Isabel_Wakefield,verified 2022 outdoor result,,
+Chyler Turner,Duke,ACC,400H,2022,FR,,,63.12,s,Duke Invitational,2022-04-07,Final,8.0,,Outdoor,https://indiana.tfrrs.org/athletes/7975662/Duke/Chyler_Turner,verified 2022 outdoor result,,
+Lauren Hoffman,Duke,ACC,400H,2022,GR,,,56.52,s,Duke Invitational,2022-04-07,Final,1.0,,Outdoor,https://goduke.com/sports/track-and-field/roster/lauren-hoffman/17738,verified 2022 outdoor result,,
+Meredith Sims,Duke,ACC,400H,2022,FR,,,65.13,s,Duke Invitational,2022-04-07,Final,17.0,,Outdoor,https://indiana.tfrrs.org/athletes/7975661/Duke/Meredith_Sims,verified 2022 outdoor result,,
+Nikki Merritt,Duke,ACC,400H,2022,SR,,,62.26,s,Duke Invitational,2022-04-07,Final,7.0,,Outdoor,https://tfrrs.org/athletes/7020658/Duke/Nikki_Merritt,verified 2022 outdoor result,,
+Carly King,Duke,ACC,400m,2022,JR,,,53.76,s,Duke Invitational,2022-04-07,Final,2.0,,Outdoor,https://nh.tfrrs.org/athletes/7527990/Duke/Carly_King.html,verified 2022 outdoor result,,
+Jenna Crean,Duke,ACC,400m,2022,JR,,,54.18,s,Duke Invitational,2022-04-07,Final,5.0,,Outdoor,https://nh.tfrrs.org/athletes/7527989/Duke/Jenna_Crean.html,verified 2022 outdoor result,,
+Kiara Ekeigwe,Duke,ACC,400m,2022,SO,,,58.53,s,Duke Invitational,2022-04-07,Final,28.0,,Outdoor,https://www.tfrrs.org/results/74378/4483040/Duke_Invitational/400-Meters,verified 2022 outdoor result,,
+Megan McGinnis,Duke,ACC,400m,2022,FR,,,54.04,s,Duke Invitational,2022-04-07,Final,3.0,,Outdoor,https://www.tfrrs.org/athletes/7975659/Duke/Megan_McGinnis.html,verified 2022 outdoor result,,
+Nikki Merritt,Duke,ACC,Long Jump,2022,SR,,,5.99,m,Tobacco Road Challenge,2022-04-10,Final,2.0,,Outdoor,https://goduke.com/sports/track-and-field/roster/nikki-merritt/17760,verified 2022 outdoor result,,
+Chyler Turner,Duke,ACC,100H,2022,FR,,,13.78,s,High Point - Meet of Champions,2022-04-15,Final,4.0,2.1,Outdoor,https://indiana.tfrrs.org/athletes/7975662/Duke/Chyler_Turner,verified 2022 outdoor result,,
+Isabel Wakefield,Duke,ACC,100H,2022,SR,,,DNF,s,High Point - Meet of Champions,2022-04-15,Final,,2.1,Outdoor,https://indiana.tfrrs.org/athletes/7020659/Duke/Isabel_Wakefield,verified 2022 outdoor result,,
+Zoe Hughes,Duke,ACC,100H,2022,GR,,,13.79,s,High Point - Meet of Champions,2022-04-15,Final,5.0,2.1,Outdoor,https://www.tfrrs.org/athletes/7723651/Duke/Zoe_Hughes.html,verified 2022 outdoor result,,
+Chyler Turner,Duke,ACC,400H,2022,FR,,,66.03,s,High Point - Meet of Champions,2022-04-15,Final,14.0,,Outdoor,https://indiana.tfrrs.org/athletes/7975662/Duke/Chyler_Turner,verified 2022 outdoor result,,
+Isabel Wakefield,Duke,ACC,400H,2022,SR,,,DNF,s,High Point - Meet of Champions,2022-04-15,Final,,,Outdoor,https://indiana.tfrrs.org/athletes/7020659/Duke/Isabel_Wakefield,verified 2022 outdoor result,,
+Lauren Hoffman,Duke,ACC,400H,2022,GR,,,56.12,s,High Point - Meet of Champions,2022-04-15,Final,1.0,,Outdoor,https://goduke.com/sports/track-and-field/roster/lauren-hoffman/17738,verified 2022 outdoor result,,
+Meredith Sims,Duke,ACC,400H,2022,FR,,,64.14,s,High Point - Meet of Champions,2022-04-15,Final,10.0,,Outdoor,https://indiana.tfrrs.org/athletes/7975661/Duke/Meredith_Sims,verified 2022 outdoor result,,
+Nikki Merritt,Duke,ACC,400H,2022,SR,,,61.22,s,High Point - Meet of Champions,2022-04-15,Final,3.0,,Outdoor,https://tfrrs.org/athletes/7020658/Duke/Nikki_Merritt,verified 2022 outdoor result,,
+Abby Geiser,Duke,ACC,400m,2022,FR,,,56.13,s,High Point - Meet of Champions,2022-04-15,Final,7.0,,Outdoor,https://www.tfrrs.org/athletes/7975663/Duke/Abby_Geiser,verified 2022 outdoor result,,
+Carly King,Duke,ACC,400m,2022,JR,,,54.46,s,High Point - Meet of Champions,2022-04-15,Final,3.0,,Outdoor,https://nh.tfrrs.org/athletes/7527990/Duke/Carly_King.html,verified 2022 outdoor result,,
+Kiara Ekeigwe,Duke,ACC,400m,2022,SO,,,57.32,s,High Point - Meet of Champions,2022-04-15,Final,12.0,,Outdoor,https://www.tfrrs.org/results/74603/4503127/High_Point_-_Meet_of_Champions/400-Meters,verified 2022 outdoor result,,
+Megan McGinnis,Duke,ACC,400m,2022,FR,,,53.94,s,High Point - Meet of Champions,2022-04-15,Final,2.0,,Outdoor,https://www.tfrrs.org/athletes/7975659/Duke/Megan_McGinnis.html,verified 2022 outdoor result,,
+Zoe Hughes,Duke,ACC,Long Jump,2022,GR,,,6.19,m,High Point - Meet of Champions,2022-04-15,Final,2.0,3.4,Outdoor,https://www.tfrrs.org/athletes/7723651/Duke/Zoe_Hughes.html,verified 2022 outdoor result,,
+Brianna Smith,Duke,ACC,100H,2022,SO,,,14.17,s,Virginia Challenge,2022-04-22,Final,,2.5,Outdoor,https://nh.tfrrs.org/athletes/7723645/Duke/Brianna_Smith,verified 2022 outdoor result,,
+Chyler Turner,Duke,ACC,100H,2022,FR,,,14.10,s,Virginia Challenge,2022-04-22,Final,12.0,-1.7,Outdoor,https://indiana.tfrrs.org/athletes/7975662/Duke/Chyler_Turner,verified 2022 outdoor result,,
+Erin Marsh,Duke,ACC,100H,2022,GR,,,13.40,s,Virginia Challenge,2022-04-22,Final,2.0,0.1,Outdoor,https://www.tfrrs.org/athletes/6583376/Duke/Erin_Marsh.html,verified 2022 outdoor result,,
+Zoe Hughes,Duke,ACC,100H,2022,GR,,,14.18,s,Virginia Challenge,2022-04-22,Final,17.0,-1.7,Outdoor,https://www.tfrrs.org/athletes/7723651/Duke/Zoe_Hughes.html,verified 2022 outdoor result,,
+Chyler Turner,Duke,ACC,400H,2022,FR,,,DNF,s,Virginia Challenge,2022-04-22,Final,,,Outdoor,https://indiana.tfrrs.org/athletes/7975662/Duke/Chyler_Turner,verified 2022 outdoor result,,
+Erin Marsh,Duke,ACC,400H,2022,GR,,,58.45,s,Virginia Challenge,2022-04-22,Final,2.0,,Outdoor,https://www.tfrrs.org/athletes/6583376/Duke/Erin_Marsh.html,verified 2022 outdoor result,,
+Nikki Merritt,Duke,ACC,400H,2022,SR,,,59.99,s,Virginia Challenge,2022-04-22,Final,7.0,,Outdoor,https://tfrrs.org/athletes/7020658/Duke/Nikki_Merritt,verified 2022 outdoor result,,
+Abby Geiser,Duke,ACC,400m,2022,FR,,,56.00,s,Virginia Challenge,2022-04-22,Final,26.0,,Outdoor,https://www.tfrrs.org/athletes/7975663/Duke/Abby_Geiser,verified 2022 outdoor result,,
+Carly King,Duke,ACC,400m,2022,JR,,,54.45,s,Virginia Challenge,2022-04-22,Final,,,Outdoor,https://nh.tfrrs.org/athletes/7527990/Duke/Carly_King.html,verified 2022 outdoor result,,
+Hailey Williams,Duke,ACC,400m,2022,SO,,,56.58,s,Virginia Challenge,2022-04-22,Final,33.0,,Outdoor,https://tfrrs.org/athletes/7723644/Duke/Hailey_Williams.html,verified 2022 outdoor result,,
+Jenna Crean,Duke,ACC,400m,2022,JR,,,54.48,s,Virginia Challenge,2022-04-22,Final,5.0,,Outdoor,https://nh.tfrrs.org/athletes/7527989/Duke/Jenna_Crean.html,verified 2022 outdoor result,,
+Megan McGinnis,Duke,ACC,400m,2022,FR,,,54.51,s,Virginia Challenge,2022-04-22,Final,6.0,,Outdoor,https://www.tfrrs.org/athletes/7975659/Duke/Megan_McGinnis.html,verified 2022 outdoor result,,
+Erin Marsh,Duke,ACC,Long Jump,2022,GR,,,6.18,m,Virginia Challenge,2022-04-22,Final,4.0,0.9,Outdoor,https://www.tfrrs.org/athletes/6583376/Duke/Erin_Marsh.html,verified 2022 outdoor result,,
+Isabel Wakefield,Duke,ACC,Long Jump,2022,SR,,,6.24,m,Virginia Challenge,2022-04-22,Final,2.0,0.2,Outdoor,https://indiana.tfrrs.org/athletes/7020659/Duke/Isabel_Wakefield,verified 2022 outdoor result,,
+Chyler Turner,Duke,ACC,100H,2022,FR,,,14.07,s,Virginia Grand Prix,2022-05-01,Final,3.0,-0.1,Outdoor,https://indiana.tfrrs.org/athletes/7975662/Duke/Chyler_Turner,verified 2022 outdoor result,,
+Erin Marsh,Duke,ACC,100H,2022,GR,,,13.48,s,Virginia Grand Prix,2022-05-01,Final,2.0,-0.1,Outdoor,https://www.tfrrs.org/athletes/6583376/Duke/Erin_Marsh.html,verified 2022 outdoor result,,
+Isabel Wakefield,Duke,ACC,100H,2022,SR,,,13.30,s,Virginia Grand Prix,2022-05-01,Final,1.0,-0.1,Outdoor,https://indiana.tfrrs.org/athletes/7020659/Duke/Isabel_Wakefield,verified 2022 outdoor result,,
+Chyler Turner,Duke,ACC,400H,2022,FR,,,DNF,s,Virginia Grand Prix,2022-05-01,Final,,,Outdoor,https://indiana.tfrrs.org/athletes/7975662/Duke/Chyler_Turner,verified 2022 outdoor result,,
+Hailey Williams,Duke,ACC,400m,2022,SO,,,58.04,s,Virginia Grand Prix,2022-05-01,Final,8.0,,Outdoor,https://tfrrs.org/athletes/7723644/Duke/Hailey_Williams.html,verified 2022 outdoor result,,
+Jenna Crean,Duke,ACC,400m,2022,JR,,,54.47,s,Virginia Grand Prix,2022-05-01,Final,4.0,,Outdoor,https://nh.tfrrs.org/athletes/7527989/Duke/Jenna_Crean.html,verified 2022 outdoor result,,
+Megan McGinnis,Duke,ACC,400m,2022,FR,,,54.25,s,Virginia Grand Prix,2022-05-01,Final,3.0,,Outdoor,https://www.tfrrs.org/athletes/7975659/Duke/Megan_McGinnis.html,verified 2022 outdoor result,,
+Brianna Smith,Duke,ACC,100H,2022,SO,,,14.39,s,ACC Outdoor Championships,2022-05-12,Heptathlon,,-0.4,Outdoor,https://nh.tfrrs.org/athletes/7723645/Duke/Brianna_Smith,verified 2022 outdoor result,,
+Chyler Turner,Duke,ACC,100H,2022,FR,,,13.59,s,ACC Outdoor Championships,2022-05-12,Prelim,,0.7,Outdoor,https://indiana.tfrrs.org/athletes/7975662/Duke/Chyler_Turner,verified 2022 outdoor result,,
+Erin Marsh,Duke,ACC,100H,2022,GR,,,13.29,s,ACC Outdoor Championships,2022-05-12,Heptathlon,1.0,1.9,Outdoor,https://www.tfrrs.org/athletes/6583376/Duke/Erin_Marsh.html,verified 2022 outdoor result,,
+Erin Marsh,Duke,ACC,100H,2022,GR,,,13.55,s,ACC Outdoor Championships,2022-05-12,Prelim,4.0,0.7,Outdoor,https://www.tfrrs.org/athletes/6583376/Duke/Erin_Marsh.html,verified 2022 outdoor result,,
+Isabel Wakefield,Duke,ACC,100H,2022,SR,,,DNF,s,ACC Outdoor Championships,2022-05-12,Prelim,,0.7,Outdoor,https://indiana.tfrrs.org/athletes/7020659/Duke/Isabel_Wakefield,verified 2022 outdoor result,,
+Zoe Hughes,Duke,ACC,100H,2022,GR,,,13.96,s,ACC Outdoor Championships,2022-05-12,Heptathlon,6.0,-0.4,Outdoor,https://www.tfrrs.org/athletes/7723651/Duke/Zoe_Hughes.html,verified 2022 outdoor result,,
+Nikki Merritt,Duke,ACC,400H,2022,SR,,,60.80,s,ACC Outdoor Championships,2022-05-12,Prelim,6.0,,Outdoor,https://tfrrs.org/athletes/7020658/Duke/Nikki_Merritt,verified 2022 outdoor result,,
+Abby Geiser,Duke,ACC,400m,2022,FR,,,55.88,s,ACC Outdoor Championships,2022-05-12,Prelim,15.0,,Outdoor,https://www.tfrrs.org/athletes/7975663/Duke/Abby_Geiser,verified 2022 outdoor result,,
+Carly King,Duke,ACC,400m,2022,JR,,,54.27,s,ACC Outdoor Championships,2022-05-12,Prelim,,,Outdoor,https://nh.tfrrs.org/athletes/7527990/Duke/Carly_King.html,verified 2022 outdoor result,,
+Jenna Crean,Duke,ACC,400m,2022,JR,,,53.70,s,ACC Outdoor Championships,2022-05-12,Prelim,5.0,,Outdoor,https://nh.tfrrs.org/athletes/7527989/Duke/Jenna_Crean.html,verified 2022 outdoor result,,
+Megan McGinnis,Duke,ACC,400m,2022,FR,,,53.83,s,ACC Outdoor Championships,2022-05-12,Prelim,7.0,,Outdoor,https://www.tfrrs.org/athletes/7975659/Duke/Megan_McGinnis.html,verified 2022 outdoor result,,
+Erin Marsh,Duke,ACC,Long Jump,2022,GR,,,6.04,m,ACC Outdoor Championships,2022-05-12,Heptathlon,2.0,1.5,Outdoor,https://www.tfrrs.org/athletes/6583376/Duke/Erin_Marsh.html,verified 2022 outdoor result,,
+Zoe Hughes,Duke,ACC,Long Jump,2022,GR,,,6.01,m,ACC Outdoor Championships,2022-05-12,Heptathlon,3.0,2.1,Outdoor,https://www.tfrrs.org/athletes/7723651/Duke/Zoe_Hughes.html,verified 2022 outdoor result,,
+Erin Marsh,Duke,ACC,Long Jump,2022,GR,,,5.92,m,ACC Outdoor Championships,2022-05-13,Final,10.0,1.2,Outdoor,https://www.tfrrs.org/athletes/6583376/Duke/Erin_Marsh.html,verified 2022 outdoor result,,
+Isabel Wakefield,Duke,ACC,Long Jump,2022,SR,,,6.20,m,ACC Outdoor Championships,2022-05-13,Final,3.0,1.3,Outdoor,https://indiana.tfrrs.org/athletes/7020659/Duke/Isabel_Wakefield,verified 2022 outdoor result,,
+Zoe Hughes,Duke,ACC,Long Jump,2022,GR,,,6.20,m,ACC Outdoor Championships,2022-05-13,Final,4.0,4.4,Outdoor,https://www.tfrrs.org/athletes/7723651/Duke/Zoe_Hughes.html,verified 2022 outdoor result,,
+Chyler Turner,Duke,ACC,100H,2022,FR,,,13.56,s,ACC Outdoor Championships,2022-05-14,Final,6.0,0.3,Outdoor,https://indiana.tfrrs.org/athletes/7975662/Duke/Chyler_Turner,verified 2022 outdoor result,,
+Erin Marsh,Duke,ACC,100H,2022,GR,,,13.49,s,ACC Outdoor Championships,2022-05-14,Final,3.0,0.3,Outdoor,https://www.tfrrs.org/athletes/6583376/Duke/Erin_Marsh.html,verified 2022 outdoor result,,
+Lauren Hoffman,Duke,ACC,400H,2022,GR,,,56.00,s,ACC Outdoor Championships,2022-05-14,Final,1.0,,Outdoor,https://goduke.com/sports/track-and-field/roster/lauren-hoffman/17738,verified 2022 outdoor result,,
+Nikki Merritt,Duke,ACC,400H,2022,SR,,,60.63,s,ACC Outdoor Championships,2022-05-14,Final,8.0,,Outdoor,https://tfrrs.org/athletes/7020658/Duke/Nikki_Merritt,verified 2022 outdoor result,,
+Jenna Crean,Duke,ACC,400m,2022,JR,,,53.97,s,ACC Outdoor Championships,2022-05-14,Final,8.0,,Outdoor,https://nh.tfrrs.org/athletes/7527989/Duke/Jenna_Crean.html,verified 2022 outdoor result,,
+Megan McGinnis,Duke,ACC,400m,2022,FR,,,53.27,s,ACC Outdoor Championships,2022-05-14,Final,5.0,,Outdoor,https://www.tfrrs.org/athletes/7975659/Duke/Megan_McGinnis.html,verified 2022 outdoor result,,
+Chyler Turner,Duke,ACC,100H,2022,FR,,,13.67,s,NCAA East Preliminary Round,2022-05-25,Prelim,,-1.0,Outdoor,https://indiana.tfrrs.org/athletes/7975662/Duke/Chyler_Turner,verified 2022 outdoor result,,
+Erin Marsh,Duke,ACC,100H,2022,GR,,,13.54,s,NCAA East Preliminary Round,2022-05-25,Prelim,21.0,-0.3,Outdoor,https://www.tfrrs.org/athletes/6583376/Duke/Erin_Marsh.html,verified 2022 outdoor result,,
+Erin Marsh,Duke,ACC,100H,2022,GR,,,13.54,s,NCAA East Preliminary Round,2022-05-25,Prelim,24.0,-0.8,Outdoor,https://www.tfrrs.org/athletes/6583376/Duke/Erin_Marsh.html,verified 2022 outdoor result,,
+Lauren Hoffman,Duke,ACC,400H,2022,GR,,,55.91,s,NCAA East Preliminary Round,2022-05-25,Quarterfinal,,,Outdoor,https://goduke.com/sports/track-and-field/roster/lauren-hoffman/17738,verified 2022 outdoor result,,
+Carly King,Duke,ACC,400m,2022,JR,,,53.85,s,NCAA East Preliminary Round,2022-05-25,Prelim,,,Outdoor,https://nh.tfrrs.org/athletes/7527990/Duke/Carly_King.html,verified 2022 outdoor result,,
+Jenna Crean,Duke,ACC,400m,2022,JR,,,55.12,s,NCAA East Preliminary Round,2022-05-25,Prelim,,,Outdoor,https://nh.tfrrs.org/athletes/7527989/Duke/Jenna_Crean.html,verified 2022 outdoor result,,
+Megan McGinnis,Duke,ACC,400m,2022,FR,,,53.77,s,NCAA East Preliminary Round,2022-05-25,Prelim,32.0,,Outdoor,https://www.tfrrs.org/athletes/7975659/Duke/Megan_McGinnis.html,verified 2022 outdoor result,,
+Erin Marsh,Duke,ACC,Long Jump,2022,GR,,,5.62,m,NCAA East Preliminary Round,2022-05-25,Final,43.0,-1.0,Outdoor,https://www.tfrrs.org/athletes/6583376/Duke/Erin_Marsh.html,verified 2022 outdoor result,,
+Zoe Hughes,Duke,ACC,Long Jump,2022,GR,,,6.06,m,NCAA East Preliminary Round,2022-05-25,Final,13.0,-1.7,Outdoor,https://www.tfrrs.org/athletes/7723651/Duke/Zoe_Hughes.html,verified 2022 outdoor result,,
+Erin Marsh,Duke,ACC,100H,2022,GR,,,13.14,s,NCAA Outdoor Championships,2022-06-08,Heptathlon,2.0,-0.2,Outdoor,https://www.tfrrs.org/athletes/6583376/Duke/Erin_Marsh.html,verified 2022 outdoor result,,
+Lauren Hoffman,Duke,ACC,400H,2022,GR,,,55.47,s,NCAA Outdoor Championships,2022-06-09,Semifinal,3.0,,Outdoor,https://goduke.com/sports/track-and-field/roster/lauren-hoffman/17738,verified 2022 outdoor result,,
+Lauren Hoffman,Duke,ACC,400H,2022,GR,,,55.58,s,NCAA Outdoor Championships,2022-06-11,Final,3.0,,Outdoor,https://goduke.com/sports/track-and-field/roster/lauren-hoffman/17738,verified 2022 outdoor result,,
+Erin Marsh,Duke,ACC,Long Jump,2022,GR,,,5.74,m,NCAA Outdoor Championships,2022-06-11,Heptathlon,11.0,0.4,Outdoor,https://www.tfrrs.org/athletes/6583376/Duke/Erin_Marsh.html,verified 2022 outdoor result,,
+Ava Klein,Florida State,ACC,400H,2022,SO,2002-05-23,19.0,59.77,s,Florida State Relays,2022-03-24,Final,1.0,,Outdoor,https://nh.tfrrs.org/athletes/7759600/Florida_State/Ava_Klein,verified against FSU bio and TFRRS; full 2022 outdoor target-event history,,
+Ava Klein,Florida State,ACC,400H,2022,SO,2002-05-23,19.0,60.17,s,Florida Relays,2022-03-31,Final,23.0,,Outdoor,https://nh.tfrrs.org/athletes/7759600/Florida_State/Ava_Klein,verified against FSU bio and TFRRS; full 2022 outdoor target-event history,,
+Ava Klein,Florida State,ACC,400H,2022,SO,2002-05-23,19.0,60.52,s,UF Tom Jones Memorial,2022-04-15,Final,15.0,,Outdoor,https://nh.tfrrs.org/athletes/7759600/Florida_State/Ava_Klein,verified against FSU bio and TFRRS; full 2022 outdoor target-event history,,
+Ava Klein,Florida State,ACC,400m,2022,SO,2002-05-23,19.0,57.34,s,UF Tom Jones Memorial,2022-04-15,Final,40.0,,Outdoor,https://nh.tfrrs.org/athletes/7759600/Florida_State/Ava_Klein,verified against FSU bio and TFRRS; full 2022 outdoor target-event history,,
+Jazmine Tilmon,Florida State,ACC,100H,2022,SO,,,14.59,s,North Florida Collegiate Invitational,2022-04-29,Prelim,22.0,0.7,Outdoor,https://www.tfrrs.org/results/74586/4536312/North_Florida_Collegiate_Invitational_/100-Hurdles,verified against FSU bio and TFRRS; only 2022 outdoor target-event result found,,
+Ava Klein,Florida State,ACC,400H,2022,SO,2002-05-23,19.0,60.41,s,North Florida Collegiate Invitational,2022-04-29,Final,6.0,,Outdoor,https://nh.tfrrs.org/athletes/7759600/Florida_State/Ava_Klein,verified against FSU bio and TFRRS; full 2022 outdoor target-event history,,
+Ava Klein,Florida State,ACC,400H,2022,SO,2002-05-23,19.0,60.87,s,ACC Outdoor Track & Field Championships,2022-05-12,Prelim,7.0,,Outdoor,https://www.tfrrs.org/results/75142/4556126/ACC_Outdoor_Track__Field_Championships/Womens-400-Hurdles,"verified against FSU bio, TFRRS athlete history, and ACC results",,
+Ava Klein,Florida State,ACC,400H,2022,SO,2002-05-23,19.0,59.49,s,ACC Outdoor Track & Field Championships,2022-05-14,Final,5.0,,Outdoor,https://www.tfrrs.org/results/75142/4556126/ACC_Outdoor_Track__Field_Championships/Womens-400-Hurdles,"verified against FSU bio, TFRRS athlete history, and ACC results",,
+Ava Klein,Florida State,ACC,400H,2022,SO,2002-05-23,20.0,61.21,s,NCAA East Preliminary Round,2022-05-26,First Round,39.0,,Outdoor,https://flashresults.ncaa.com/OutdoorRegionals/2022/East/030-1_compiled.htm,verified against TFRRS athlete history and NCAA Flash Results,,
+Anzhelika Parenchuk,Virginia,,400H,2022,FR-1,,,1:03.76,,Virginia Open,2022-03-19,,,,,,,Women,TFRRS
+Emily Alexandru,Virginia,,400H,2022,FR-1,,,1:01.99,,Virginia Open,2022-03-19,,,,,,,Women,TFRRS
+Alahna Sabbakhan,Virginia,,400m,2022,SO-2,,,57.24,,Virginia Open,2022-03-19,,,,,,,Women,TFRRS
+Alix Still,Virginia,,Long Jump,2022,JR-3,,,6.17m (3.8),,Virginia Open,2022-03-19,,,,,,,Women,TFRRS
+Jordan Hardy,Virginia,,Long Jump,2022,FR-1,,,5.81m (1.4),,Virginia Open,2022-03-19,,,,,,,Women,TFRRS
+Mia Abulencia,Virginia,,Long Jump,2022,JR-3,,,5.65m (3.4),,Virginia Open,2022-03-19,,,,,,,Women,TFRRS
+Zoe Rice,Virginia,,Long Jump,2022,JR-3,,,6.19m (2.9),,Virginia Open,2022-03-19,,,,,,,Women,TFRRS
+Alix Still,Virginia,,100H,2022,JR-3,,,14.12 (0.6),,Raleigh Relays,2022-03-24/26,,,,,,,Women,TFRRS
+Anzhelika Parenchuk,Virginia,,400H,2022,FR-1,,,1:03.65,,Raleigh Relays,2022-03-24/26,,,,,,,Women,TFRRS
+Emily Alexandru,Virginia,,400H,2022,FR-1,,,1:02.47,,Raleigh Relays,2022-03-24/26,,,,,,,Women,TFRRS
+Jada Seaman,Virginia,,Long Jump,2022,SO-2,,,6.02m (1.9),,Raleigh Relays,2022-03-24/26,,,,,,,Women,TFRRS
+Alix Still,Virginia,,100H,2022,JR-3,,,13.82 (1.7),,Duke Invitational - Heptathlon,2022-04-07/09,,,,,,,Women,TFRRS
+Emily Alexandru,Virginia,,100H,2022,FR-1,,,16.83 (0.6),,Duke Invitational,2022-04-07/09,,,,,,,Women,TFRRS
+Anzhelika Parenchuk,Virginia,,400H,2022,FR-1,,,1:01.56,,Duke Invitational,2022-04-07/09,,,,,,,Women,TFRRS
+Emily Alexandru,Virginia,,400H,2022,FR-1,,,1:05.07,,Duke Invitational,2022-04-07/09,,,,,,,Women,TFRRS
+Alix Still,Virginia,,Long Jump,2022,JR-3,,,5.77m (1.7),,Duke Invitational - Heptathlon,2022-04-07/09,,,,,,,Women,TFRRS
+Jada Seaman,Virginia,,Long Jump,2022,SO-2,,,6.12m (3.0),,Duke Invitational,2022-04-07/09,,,,,,,Women,TFRRS
+Jordan Hardy,Virginia,,Long Jump,2022,FR-1,,,5.43m (2.9),,Duke Invitational,2022-04-07/09,,,,,,,Women,TFRRS
+Zoe Rice,Virginia,,Long Jump,2022,JR-3,,,5.72m (2.5),,Duke Invitational,2022-04-07/09,,,,,,,Women,TFRRS
+Alix Still,Virginia,,100H,2022,JR-3,,,14.42 (-1.7),,Virginia Challenge,2022-04-22/23,,,,,,,Women,TFRRS
+Anzhelika Parenchuk,Virginia,,400H,2022,FR-1,,,1:02.68,,Virginia Challenge,2022-04-22/23,,,,,,,Women,TFRRS
+Emily Alexandru,Virginia,,400H,2022,FR-1,,,1:01.77,,Virginia Challenge,2022-04-22/23,,,,,,,Women,TFRRS
+Alix Still,Virginia,,Long Jump,2022,JR-3,,,5.79m (0.5),,Virginia Challenge,2022-04-22/23,,,,,,,Women,TFRRS
+Jada Seaman,Virginia,,Long Jump,2022,SO-2,,,5.92m (1.3),,Virginia Challenge,2022-04-22/23,,,,,,,Women,TFRRS
+Mia Abulencia,Virginia,,Long Jump,2022,JR-3,,,5.51m (1.2),,Virginia Challenge,2022-04-22/23,,,,,,,Women,TFRRS
+Zoe Rice,Virginia,,Long Jump,2022,JR-3,,,5.61m (2.0),,Virginia Challenge,2022-04-22/23,,,,,,,Women,TFRRS
+Jada Seaman,Virginia,,Long Jump,2022,SO-2,,,6.07m (-0.4),,Penn Relays,2022-04-28/30,,,,,,,Women,TFRRS
+Emily Alexandru,Virginia,,400H,2022,FR-1,,,1:02.13,,Virginia Grand Prix,2022-05-01,,,,,,,Women,TFRRS
+Anzhelika Parenchuk,Virginia,,400m,2022,FR-1,,,56.45,,Virginia Grand Prix,2022-05-01,,,,,,,Women,TFRRS
+Emily Alexandru,Virginia,,400H,2022,FR-1,,,1:01.01,,Virginia High Performance,2022-05-04,,,,,,,Women,TFRRS
+Alahna Sabbakhan,Virginia,,400m,2022,SO-2,,,56.79,,Virginia High Performance,2022-05-04,,,,,,,Women,TFRRS
+Alix Still,Virginia,,Long Jump,2022,JR-3,,,5.65m (0.8),,Virginia High Performance,2022-05-04,,,,,,,Women,TFRRS
+Jordan Hardy,Virginia,,Long Jump,2022,FR-1,,,5.83m (0.5),,Virginia High Performance,2022-05-04,,,,,,,Women,TFRRS
+Mia Abulencia,Virginia,,Long Jump,2022,JR-3,,,5.66m (1.5),,Virginia High Performance,2022-05-04,,,,,,,Women,TFRRS
+Zoe Rice,Virginia,,Long Jump,2022,JR-3,,,5.98m (1.1),,Virginia High Performance,2022-05-04,,,,,,,Women,TFRRS
+Alix Still,Virginia,,100H,2022,JR-3,,,13.84 (1.9),,ACC Outdoor Track & Field Championships - Heptathlon,2022-05-12/14,,,,,,,Women,TFRRS
+Anzhelika Parenchuk,Virginia,,400H,2022,FR-1,,,1:02.30,,ACC Outdoor Track & Field Championships,2022-05-12/14,,,,,,,Women,TFRRS
+Emily Alexandru,Virginia,,400H,2022,FR-1,,,1:02.07,,ACC Outdoor Track & Field Championships,2022-05-12/14,,,,,,,Women,TFRRS
+Alix Still,Virginia,,Long Jump,2022,JR-3,,,5.75m (0.7),,ACC Outdoor Track & Field Championships - Heptathlon,2022-05-12/14,,,,,,,Women,TFRRS
+Alix Still,Virginia,,Long Jump,2022,JR-3,,,5.70m (1.2),,ACC Outdoor Track & Field Championships,2022-05-12/14,,,,,,,Women,TFRRS
+Jada Seaman,Virginia,,Long Jump,2022,SO-2,,,6.09m (0.4),,ACC Outdoor Track & Field Championships,2022-05-12/14,,,,,,,Women,TFRRS
+Jordan Hardy,Virginia,,Long Jump,2022,FR-1,,,6.00m (1.9),,ACC Outdoor Track & Field Championships,2022-05-12/14,,,,,,,Women,TFRRS
+Zoe Rice,Virginia,,Long Jump,2022,JR-3,,,5.69m (0.6),,ACC Outdoor Track & Field Championships,2022-05-12/14,,,,,,,Women,TFRRS
+Alix Still,Virginia,,Long Jump,2022,JR-3,,,5.52m (0.7),,NCAA East Preliminary Round,2022-05-25/28,,,,,,,Women,TFRRS
+Jada Seaman,Virginia,,Long Jump,2022,SO-2,,,5.95m (-0.3),,NCAA East Preliminary Round,2022-05-25/28,,,,,,,Women,TFRRS
+Zoe Rice,Virginia,,Long Jump,2022,JR-3,,,5.87m (0.8),,NCAA East Preliminary Round,2022-05-25/28,,,,,,,Women,TFRRS
+Samantha Thomas,Stanford,ACC,400H,2022,SO-2,,,1:03.85,s,Cardinal Classic,2022-03-19,Final,2.0,,Outdoor,https://www.tfrrs.org/athletes/7720910/Stanford/Samantha_Thomas,verified_2022_full_target_event_history,,
+Camille Peisner,Stanford,ACC,400m,2022,FR-1,,,58.50,s,Cardinal Classic,2022-03-19,Final,8.0,,Outdoor,https://gostanford.com/news/2022/03/19/cardinal-begins-outdoor-campaign,verified_2022_full_target_event_history,,
+Hannah Wilson,Stanford,ACC,400m,2022,FR-1,,,1:01.69,s,Cardinal Classic,2022-03-19,Final,12.0,,Outdoor,https://gostanford.com/news/2022/03/19/cardinal-begins-outdoor-campaign,verified_2022_full_target_event_history,,
+Allie Jones,Stanford,ACC,100H,2022,JR-3,,,13.44,s,Stanford Invitational,2022-04-01,Prelim,1.0,0.6,Outdoor,https://www.tfrrs.org/athletes/6982292/USC/Allie_Jones.html,verified_2022_full_target_event_history,,
+Samantha Thomas,Stanford,ACC,400H,2022,SO-2,,,1:01.66,s,Stanford Invitational,2022-04-01,Final,4.0,,Outdoor,https://www.tfrrs.org/athletes/7720910/Stanford/Samantha_Thomas,verified_2022_full_target_event_history,,
+Camille Peisner,Stanford,ACC,400m,2022,FR-1,,,58.35,s,Stanford Invitational,2022-04-01,Final,23.0,,Outdoor,https://www.tfrrs.org/results/71984/4464260/Stanford_Invitational/Womens-400-Meters,verified_2022_full_target_event_history,,
+Hannah Wilson,Stanford,ACC,400m,2022,FR-1,,,59.07,s,Stanford Invitational,2022-04-01,Final,27.0,,Outdoor,https://www.tfrrs.org/results/71984/4464260/Stanford_Invitational/Womens-400-Meters,verified_2022_full_target_event_history,,
+Maya Valmon,Stanford,ACC,400m,2022,FR-1,,,55.18,s,Stanford Invitational,2022-04-01,Final,3.0,,Outdoor,https://www.tfrrs.org/athletes/7980314/Stanford/Maya_Valmon,verified_2022_full_target_event_history,,
+Trinity Price,Stanford,ACC,400m,2022,FR-1,,,57.82,s,Stanford Invitational,2022-04-01,Final,19.0,,Outdoor,https://www.tfrrs.org/results/71984/4464260/Stanford_Invitational/Womens-400-Meters,verified_2022_full_target_event_history,,
+Allie Jones,Stanford,ACC,Long Jump,2022,JR-3,,,5.81,m,Stanford Invitational,2022-04-01,Final,7.0,1.0,Outdoor,https://www.tfrrs.org/athletes/6982292/USC/Allie_Jones.html,verified_2022_full_target_event_history,,
+Allie Jones,Stanford,ACC,100H,2022,JR-3,,,13.42,s,Stanford Invitational,2022-04-02,Final,1.0,0.9,Outdoor,https://www.tfrrs.org/athletes/6982292/USC/Allie_Jones.html,verified_2022_full_target_event_history,,
+Camille Peisner,Stanford,ACC,400m,2022,FR-1,,,57.92,s,Brutus Hamilton Invitational,2022-04-09,Final,,,Outdoor,https://gostanford.com/sports/track-field/roster/player/camille-peisner,verified_2022_full_target_event_history,,
+Trinity Price,Stanford,ACC,400m,2022,FR-1,,,57.06,s,Brutus Hamilton Invitational,2022-04-09,Final,5.0,,Outdoor,https://www.tfrrs.org/athletes/7980312/Stanford/Trinity_Price.html,verified_2022_full_target_event_history,,
+Allie Jones,Stanford,ACC,100H,2022,JR-3,,,13.45,s,62nd Annual Mt. SAC Relays (Collegiate),2022-04-13,Heptathlon,1.0,0.7,Outdoor,https://www.tfrrs.org/athletes/6982292/USC/Allie_Jones.html,verified_2022_full_target_event_history,,
+Samantha Thomas,Stanford,ACC,400H,2022,SO-2,,,1:01.00,s,62nd Annual Mt. SAC Relays (Collegiate),2022-04-13,Final,24.0,,Outdoor,https://www.tfrrs.org/athletes/7720910/Stanford/Samantha_Thomas,verified_2022_full_target_event_history,,
+Maya Valmon,Stanford,ACC,400m,2022,FR-1,,,54.99,s,62nd Annual Mt. SAC Relays (Collegiate),2022-04-13,Final,32.0,,Outdoor,https://www.tfrrs.org/athletes/7980314/Stanford/Maya_Valmon,verified_2022_full_target_event_history,,
+Allie Jones,Stanford,ACC,Long Jump,2022,JR-3,,,5.82,m,62nd Annual Mt. SAC Relays (Collegiate),2022-04-13,Heptathlon,6.0,2.6,Outdoor,https://www.tfrrs.org/athletes/6982292/USC/Allie_Jones.html,verified_2022_full_target_event_history,,
+Samantha Thomas,Stanford,ACC,400H,2022,SO-2,,,1:01.64,s,Beach Invitational 2022,2022-04-15,Final,10.0,,Outdoor,https://www.tfrrs.org/athletes/7720910/Stanford/Samantha_Thomas,verified_2022_full_target_event_history,,
+Allie Jones,Stanford,ACC,100H,2022,JR-3,,,13.80,s,Stanford vs. Cal Big Meet,2022-04-30,Final,1.0,-2.2,Outdoor,https://www.tfrrs.org/athletes/6982292/USC/Allie_Jones.html,verified_2022_full_target_event_history,,
+Samantha Thomas,Stanford,ACC,400H,2022,SO-2,,,1:01.21,s,Stanford vs. Cal Big Meet,2022-04-30,Final,1.0,,Outdoor,https://www.tfrrs.org/athletes/7720910/Stanford/Samantha_Thomas,verified_2022_full_target_event_history,,
+Camille Peisner,Stanford,ACC,400m,2022,FR-1,,,59.99,s,Stanford vs. Cal Big Meet,2022-04-30,Final,4.0,,Outdoor,https://gostanford.com/news/2022/04/30/card-falls-in-big-meet,verified_2022_full_target_event_history,,
+Maya Valmon,Stanford,ACC,400m,2022,FR-1,,,53.65,s,Stanford vs. Cal Big Meet,2022-04-30,Final,1.0,,Outdoor,https://www.tfrrs.org/athletes/7980314/Stanford/Maya_Valmon,verified_2022_full_target_event_history,,
+Allie Jones,Stanford,ACC,Long Jump,2022,JR-3,,,5.45,m,Stanford vs. Cal Big Meet,2022-04-30,Final,7.0,1.3,Outdoor,https://www.tfrrs.org/athletes/6982292/USC/Allie_Jones.html,verified_2022_full_target_event_history,,
+Allie Jones,Stanford,ACC,100H,2022,JR-3,,,13.43,s,Pac-12 Track & Field Championships,2022-05-13,Heptathlon,1.0,0.4,Outdoor,https://www.tfrrs.org/athletes/6982292/USC/Allie_Jones.html,verified_2022_full_target_event_history,,
+Samantha Thomas,Stanford,ACC,400H,2022,SO-2,,,1:01.21,s,Pac-12 Track & Field Championships,2022-05-13,Prelim,8.0,,Outdoor,https://www.tfrrs.org/athletes/7720910/Stanford/Samantha_Thomas,verified_2022_full_target_event_history,,
+Maya Valmon,Stanford,ACC,400m,2022,FR-1,,,54.18,s,Pac-12 Track & Field Championships,2022-05-13,Prelim,8.0,,Outdoor,https://www.tfrrs.org/athletes/7980314/Stanford/Maya_Valmon,verified_2022_full_target_event_history,,
+Allie Jones,Stanford,ACC,Long Jump,2022,JR-3,,,5.72,m,Pac-12 Track & Field Championships,2022-05-13,Heptathlon,3.0,-0.4,Outdoor,https://www.tfrrs.org/athletes/6982292/USC/Allie_Jones.html,verified_2022_full_target_event_history,,
+Samantha Thomas,Stanford,ACC,400H,2022,SO-2,,,1:00.28,s,Pac-12 Track & Field Championships,2022-05-15,Final,7.0,,Outdoor,https://www.tfrrs.org/athletes/7720910/Stanford/Samantha_Thomas,verified_2022_full_target_event_history,,
+Maya Valmon,Stanford,ACC,400m,2022,FR-1,,,53.36,s,Pac-12 Track & Field Championships,2022-05-15,Final,7.0,,Outdoor,https://www.tfrrs.org/athletes/7980314/Stanford/Maya_Valmon,verified_2022_full_target_event_history,,
+Allie Jones,Stanford,ACC,100H,2022,JR-3,,,13.58,s,NCAA West Preliminary Round,2022-05-26,Prelim,28.0,-0.9,Outdoor,https://www.tfrrs.org/athletes/6982292/USC/Allie_Jones.html,verified_2022_full_target_event_history,,
+Maya Valmon,Stanford,ACC,400m,2022,FR-1,,,53.70,s,NCAA West Preliminary Round,2022-05-26,Round 1,,,Outdoor,https://www.tfrrs.org/athletes/7980314/Stanford/Maya_Valmon,verified_2022_full_target_event_history,,
+Maya Valmon,Stanford,ACC,400m,2022,FR-1,,,53.37,s,NCAA West Preliminary Round,2022-05-28,Quarterfinal,17.0,,Outdoor,https://www.tfrrs.org/athletes/7980314/Stanford/Maya_Valmon,verified_2022_full_target_event_history,,
+Allie Jones,Stanford,ACC,100H,2022,JR-3,,,13.38,s,NCAA Division I Outdoor Track & Field Championships,2022-06-08,Heptathlon,,1.7,Outdoor,https://www.tfrrs.org/athletes/6982292/USC/Allie_Jones.html,verified_2022_full_target_event_history,,
+Allie Jones,Stanford,ACC,Long Jump,2022,JR-3,,,5.82,m,NCAA Division I Outdoor Track & Field Championships,2022-06-08,Heptathlon,,-0.1,Outdoor,https://www.tfrrs.org/athletes/6982292/USC/Allie_Jones.html,verified_2022_full_target_event_history,,
