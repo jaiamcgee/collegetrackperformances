@@ -83,3 +83,13 @@ Each **dot** shows an athlete's best recorded performance for an observed school
 - **Conference colors:** In the conference plots, each athlete keeps the color of their first recorded conference, even if they transfer.
 
 The spaghetti plots show **how individual athletes performed across years**. The regression models summarize the **overall differences between outdoor eligibility years**.
+### What We Saw in the Spaghetti Plots
+
+The plots showed that **athletes did not all improve in the same way**. Some performed better in later years, some stayed close to their earlier results, and others improved one year but performed worse the next.
+
+- **Running events:** A line going down shows a faster time.
+- **Long jump:** A line going up shows a longer jump.
+- **Gaps:** A break means we did not have a recorded result for that year.
+- **Single dots:** We had only one recorded year for that athlete, so we could not tell how their performance changed over time.
+
+The plots showed something an overall average can hide: **even though our models estimated better performances in later eligibility years, individual athletes followed different paths.**
