@@ -48,3 +48,16 @@ ACC and SEC audit counts are in `data/processed/acc_2016_2026_audit.csv` and `da
 For a single year and group, open the corresponding file under `data/processed/`. To combine groups for analysis, concatenate the annual files using the 18 named fields; do not interpret the selected conference labels as historical membership. Normalize `unit` before comparing track times. Check `data_status`, missing class years, wind, and source links for analyses where provenance matters.
 
 The repository no longer includes empty conference-wide placeholder files or an empty `all_conferences.csv`. Produce an all-groups dataset from the annual files when needed, so it reflects the current data.
+
+Data Description
+We collected women's outdoor college track and field results from the Track & Field Results Reporting System (TFRRS) for selected schools in the ACC, Big Ten, Big 12, and SEC. The project covers available results from 2016 through 2026 for the 100-meter hurdles, 400-meter hurdles, 400 meters, and long jump. We recorded details such as athlete name, school, event, meet date, season, performance, and eligibility year when available. We also recorded wind readings when listed.
+How we cleaned the data
+For each athlete, event, and outdoor season, we kept one best valid result: the fastest time for running events or the longest distance for long jump. We converted running times to seconds so we could compare them correctly. For example, 1:01.47 became 61.47 seconds. We excluded entries without a valid performance, such as unfinished races and foul jumps. A season best is the best result in the records we collected; some meets may be missing.
+Problems we ran into
+Some athletes appeared under different spellings or last names, and some transferred schools. We checked known name differences to help track the same athlete across seasons. We also found missing or conflicting eligibility years. Outdoor eligibility year can differ from academic year, so we left unresolved cases out of the regression models instead of guessing. The 100-meter hurdles received a more detailed review; names and eligibility years in the other events still need further checking.
+
+We kept the unusual 32.80-second 100-meter hurdles result in the main analysis and checked how sensitive the model was to unusual results. We kept wind-assisted marks in the main analysis and treated missing wind readings as unknown.
+What the spaghetti plots show
+Each dot shows an athlete's best recorded performance for an observed school year, and each line connects results for the same athlete. The horizontal axis shows observed school year. The vertical axis shows time in seconds or distance in meters. A downward line means a faster time for running events, and an upward line means a longer jump. We leave gaps for missing years. Athletes with only one recorded year appear as a single dot. In the conference plots, athletes keep the color of their first recorded conference even if they transfer.
+
+The spaghetti plots show individual paths across years. The regression models summarize overall differences between outdoor eligibility years.
