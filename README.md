@@ -1,8 +1,18 @@
+
+<!-- Overall Comments 
+First, we need fewer heading with # or ##.  The article needs more flow.
+Below I'm going to use ZZZ for places with my comments.
+This is the data section of your final paper so you do what to give summaries so that the reader knows what is relevant.  
+End this section with a statement about what are the data that we will be using as part of the analysis in the next section.  Which file(s) will be used 
+and what are the variables/features in those files that will be of interest.
+-->
+
 # College Track Performances
 
-This project looks at how women's outdoor college track and field performances change across seasons. We wanted to see how individual athletes' results changed over time and whether season-best performances differed by outdoor eligibility year.
+This project looks at how women's outdoor college track and field performances change across seasons. We wanted to see how individual athletes' results changed over time ZZZ not over time 
+but across their years in college ZZZ and whether season-best performances differed by outdoor eligibility year. 
 
-We collected available results from 2016 through 2026 for 20 selected schools across four conference groups. We focused on four events: the 100-meter hurdles (100H), 400-meter hurdles (400H), 400 meters (400m), and long jump. The conference labels organize schools for this project. They do not necessarily reflect each school's conference membership in every season.
+We collected available results from 2016 through 2026 for 20 selected schools across four conference ZZZ conferences not groups and list those conferences ZZZ groups. We focused on four events: the 100-meter hurdles (100H), 400-meter hurdles (400H), 400 meters (400m), and long jump. The conference labels organize schools for this project. They do not necessarily reflect each school's conference membership in every season.  ZZZ We are really not interested in conferences but we are using them to identify some of the top athletes for these events. ZZZ
 
 ## Where to Find the Data on GitHub
 
@@ -16,6 +26,8 @@ We collected available results from 2016 through 2026 for 20 selected schools ac
 If you want all available 400-meter hurdles results in one file, start with [`400H_2016_2026.csv`](data/processed/by_event/400H_2016_2026.csv). If you want one group and one year, open the corresponding annual file under `data/processed/`. For example, `sec_2024.csv` contains that year's collected SEC group results.
 
 ### Schools and Annual Files
+
+ZZZ Why did we choose these schools and only these schools?  Why not Michigan or Wisconsin or Texas? ZZZ
 
 | Group | Selected schools | Annual file pattern |
 | --- | --- | --- |
@@ -37,7 +49,7 @@ For the ACC and SEC, we also compared older project records with the TFRRS listi
 The result files and the analysis tables serve different purposes. The result files retain individual listed races and the best listed long jump mark per athlete and linked competition. For the season-best analysis, we narrowed those records down to one result per athlete, event, and outdoor season.
 
 1. We kept outdoor results for the four events in the project.
-2. We converted running times to seconds so we could compare them. For example, `1:01.47` became `61.47` seconds. Long jump distances stayed in meters.
+2. We converted running times to seconds so we could compare them. For example, `1:01.47` became `61.47` seconds. Long jump distances stayed in meters.  ZZZ your reader doesn't need to know this ZZZ
 3. We left out entries without a valid performance, such as unfinished races and foul jumps.
 4. We checked known name differences and transfers to help connect results for the same athlete across seasons.
 5. We kept the fastest recorded time for each running event and the longest recorded distance for long jump.
@@ -46,6 +58,7 @@ A season best means the best result in the records we collected. It may differ f
 
 ## Data Issues and Review Status
 
+ZZZ What is below should be part of a paragraph ZZZ
 - Athlete names and transfers: Names sometimes appeared with different spellings or last names. A school change could also make an athlete's records harder to match.
 - Eligibility year: Outdoor eligibility year can differ from academic year. We excluded unresolved cases from the regression models instead of guessing. The 100-meter hurdles received a more detailed review, so athlete identities and eligibility years for the other events still need further checking.
 - Missing information: Some records lacked wind readings or race round details. We treated missing values as unknown and kept wind-assisted marks in the main analysis.
@@ -60,6 +73,8 @@ A season best means the best result in the records we collected. It may differ f
 | Big 12 | 3,511 | Compiled from TFRRS listings. |
 
 These counts describe the archived results before selecting season bests. See the [ACC audit](data/processed/acc_2016_2026_audit.csv) and [SEC audit](data/processed/sec_2016_2026_audit.csv) for more detail. Check `source_url` and `data_status` before treating flagged records as verified.
+ZZZ We should have a table of season's best counts per class and per conference ZZZ
+
 
 ## Data Dictionary
 
@@ -76,18 +91,21 @@ The annual CSV files use these 18 fields:
 | `source_url`, `data_status` | Source link and review status. |
 
 ## Spaghetti Plots
+ZZZ Add plots here ZZZ
 
 Each dot shows an athlete's best recorded performance for an observed school year. Lines connect results for the same athlete. With many athletes on one chart, the lines overlap and look like spaghetti.
 
 - Running events: A line going down means the athlete ran faster because their time decreased.
 - Long jump: A line going up means the athlete jumped farther.
-- Missing years: A gap means we did not find a result for that year. A single dot means we found results for only one year.
+- Missing years: A gap means we did not find a result for that athlete for that year. A single dot means we found results for only one year.
 - Conference colors: In the conference plots, athletes keep the color of their first recorded conference group even if they transfer.
 
 ### What We Saw
 
 Athletes followed different paths. Some recorded better results in later years, some stayed close to their earlier performances, and others improved one year and performed worse the next. The plots make those individual changes easier to see. The regression models summarize overall differences by outdoor eligibility year, while the spaghetti plots show how results changed for each athlete across observed school years.
+ZZZ For this paragraph, let's give some summaries.  For example, what is the average distance jumped during first year, sophomore year, etc.  ZZZ  
+
 
 ## Rebuilding the Annual Files
-
+ZZZ I don't think this is necessary in this section, I think it can go in an Appendix ZZZ
 The [scripts folder](scripts/) contains the ACC and SEC build scripts and their companion legacy audit scripts. To rebuild a season, run the corresponding build script with the year, such as `python scripts/build_sec_all_meets.py 2024`. Then run the matching legacy audit script to restore and flag unmatched older records. The audit scripts use earlier Git commits, so they may require the full repository history.
