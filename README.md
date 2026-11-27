@@ -1,111 +1,64 @@
-
-<!-- Overall Comments 
-First, we need fewer heading with # or ##.  The article needs more flow.
-Below I'm going to use ZZZ for places with my comments.
-This is the data section of your final paper so you do what to give summaries so that the reader knows what is relevant.  
-End this section with a statement about what are the data that we will be using as part of the analysis in the next section.  Which file(s) will be used 
-and what are the variables/features in those files that will be of interest.
--->
-
 # College Track Performances
 
-This project looks at how women's outdoor college track and field performances change across seasons. We wanted to see how individual athletes' results changed over time ZZZ not over time 
-but across their years in college ZZZ and whether season-best performances differed by outdoor eligibility year. 
+We examined how women's outdoor college track and field performances changed across athletes' years in college and whether season-best performances differed by outdoor eligibility year. We collected available results from 2016 through 2026 for the 100-meter hurdles (100H), 400-meter hurdles (400H), 400 meters (400m), and long jump.
 
-We collected available results from 2016 through 2026 for 20 selected schools across four conference ZZZ conferences not groups and list those conferences ZZZ groups. We focused on four events: the 100-meter hurdles (100H), 400-meter hurdles (400H), 400 meters (400m), and long jump. The conference labels organize schools for this project. They do not necessarily reflect each school's conference membership in every season.  ZZZ We are really not interested in conferences but we are using them to identify some of the top athletes for these events. ZZZ
+## Data and school selection
 
-## Where to Find the Data on GitHub
+We sampled five schools from each of four conferences: the ACC, Big Ten, Big 12, and SEC. The conferences gave us a way to identify schools and capture performances from some of the top athletes in the four events. Our analysis focuses on how athletes progressed across their college years. The sample was limited to 20 schools, so programs such as Michigan, Wisconsin, and Texas fell outside its scope. The project records do not document a school-by-school ranking or the reasons for selecting particular programs over others. Conference labels follow the project's school assignments, which can differ from historical conference membership.
 
-| Folder | What it contains |
-| --- | --- |
-| [`data/raw/`](data/raw/) | Source files organized by school and year where available. |
-| [`data/processed/`](data/processed/) | Combined results by conference group and season, plus the ACC and SEC audit files. |
-| [`data/processed/by_event/`](data/processed/by_event/) | Results grouped by event: 100H, 400H, 400m, and long jump. |
-| [`notebooks/`](notebooks/) | Jupyter notebooks used to explore the data and make plots. |
-
-If you want all available 400-meter hurdles results in one file, start with [`400H_2016_2026.csv`](data/processed/by_event/400H_2016_2026.csv). If you want one group and one year, open the corresponding annual file under `data/processed/`. For example, `sec_2024.csv` contains that year's collected SEC group results.
-
-### Schools and Annual Files
-
-ZZZ Why did we choose these schools and only these schools?  Why not Michigan or Wisconsin or Texas? ZZZ
-
-| Group | Selected schools | Annual file pattern |
+| Conference | Selected schools | Annual file |
 | --- | --- | --- |
-| SEC | Alabama, Florida, Georgia, Kentucky, South Carolina | `data/processed/sec_YYYY.csv` |
 | ACC | Clemson, Duke, Florida State, Stanford, Virginia | `data/processed/acc_YYYY.csv` |
 | Big Ten | Illinois, Nebraska, Oregon, USC, Washington | `data/processed/bigten_YYYY.csv` |
 | Big 12 | Arizona, Baylor, BYU, Iowa State, Texas Tech | `data/processed/big12_YYYY.csv` |
+| SEC | Alabama, Florida, Georgia, Kentucky, South Carolina | `data/processed/sec_YYYY.csv` |
 
-Replace `YYYY` with the season year. SEC school-year files are under `data/raw/`, and ACC school-year files are under `data/raw/acc/<year>/`. Use the combined annual files for the Big Ten and Big 12.
+We used the Track & Field Results Reporting System (TFRRS) to look up performances by school, season, and event. When available, we recorded the athlete's name, school, meet, date, performance, class year, and wind reading. The [raw files](data/raw/) contain school-by-year results where available. The [processed files](data/processed/) combine results by conference and year and include the [ACC audit](data/processed/acc_2016_2026_audit.csv) and [SEC audit](data/processed/sec_2016_2026_audit.csv). We kept older sourced ACC and SEC records that we could not match to the listings and flagged them for review.
 
-## How We Found the Data
+We excluded entries without a valid mark, such as unfinished races and foul jumps. We checked known name variations and transfers to connect results across seasons. For each athlete, event, and outdoor season, we selected the fastest recorded race time or the longest recorded jump. These season bests depend on the results available in our files.
 
-We used the Track & Field Results Reporting System (TFRRS) to find outdoor performances listed for the selected schools. We checked results by school, season, and event. When available, we recorded the athlete's name, school, meet, date, time or jump distance, class year, and wind reading. We kept source links so the results could be checked later.
+School transfers and changes in name spelling made some athletes' records harder to match. Outdoor eligibility year can differ from the class year reported in the source. The 100H model data received a more detailed review, and all four event models excluded cases where athlete identity or eligibility year could not be resolved. Some records lack wind readings or round information. We kept wind-assisted marks in the main analysis and used a sensitivity check to see how unusual marks, including a 32.80-second 100H result, affected the models. Coverage is especially limited in 2020, when the ACC, Big 12, and SEC annual files contain no results and the Big Ten file contains four rows. The 2026 files reflect the results available at the time of collection.
 
-For the ACC and SEC, we also compared older project records with the TFRRS listings. When an older sourced result did not match a listing, we kept it in the archive and flagged it for review.
+## Season-best summaries and plots
 
-## How We Cleaned the Data
+Each count represents one athlete's best recorded mark in one event and season. We used the class and conference attached to the selected mark. An athlete can contribute to the table in multiple seasons or events. The descriptive summaries include valid marks from flagged older records, and 22 marks have an unknown class year.
 
-The result files and the analysis tables serve different purposes. The result files retain individual listed races and the best listed long jump mark per athlete and linked competition. For the season-best analysis, we narrowed those records down to one result per athlete, event, and outdoor season.
+| Conference | First-year | Sophomore | Junior | Senior | Unknown | Total |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| ACC | 199 | 201 | 185 | 171 | 4 | 760 |
+| Big Ten | 229 | 227 | 174 | 151 | 10 | 791 |
+| Big 12 | 285 | 204 | 219 | 173 | 8 | 889 |
+| SEC | 210 | 145 | 164 | 122 | 0 | 641 |
+| **Total** | **923** | **777** | **742** | **617** | **22** | **3,081** |
 
-1. We kept outdoor results for the four events in the project.
-2. We converted running times to seconds so we could compare them. For example, `1:01.47` became `61.47` seconds. Long jump distances stayed in meters.  ZZZ your reader doesn't need to know this ZZZ
-3. We left out entries without a valid performance, such as unfinished races and foul jumps.
-4. We checked known name differences and transfers to help connect results for the same athlete across seasons.
-5. We kept the fastest recorded time for each running event and the longest recorded distance for long jump.
+| Reported class | 100H (s) | 400H (s) | 400m (s) | Long jump (m) |
+| --- | ---: | ---: | ---: | ---: |
+| First-year | 14.24 | 61.53 | 56.05 | 5.71 |
+| Sophomore | 14.00 | 60.52 | 55.33 | 5.85 |
+| Junior | 13.90 | 59.83 | 54.82 | 5.94 |
+| Senior | 13.70 | 58.96 | 54.65 | 6.00 |
 
-A season best means the best result in the records we collected. It may differ from an athlete's true season best if a meet or result was missing.
+The average season best was faster in each successive reported class for all three running events. In long jump, the average rose from 5.71 meters for first-year athletes to 6.00 meters for seniors. The athletes represented in each class can differ, so these averages describe the marks we collected for each class. The plots below show how individual athletes' season bests changed.
 
-## Data Issues and Review Status
+Each dot shows one season best. Year 1 is the earliest outdoor season we recorded for that athlete across the four events. Lines connect consecutive seasons in the same event, and gaps show seasons without a recorded mark for that event. An athlete keeps the color of the conference attached to their first plotted mark in that event. Downward lines show faster running times, and upward lines show longer jumps. The 100H plot displays 12–17 seconds. Four season bests fall outside that range and are included in the tables.
 
-ZZZ What is below should be part of a paragraph ZZZ
-- Athlete names and transfers: Names sometimes appeared with different spellings or last names. A school change could also make an athlete's records harder to match.
-- Eligibility year: Outdoor eligibility year can differ from academic year. We excluded unresolved cases from the regression models instead of guessing. The 100-meter hurdles received a more detailed review, so athlete identities and eligibility years for the other events still need further checking.
-- Missing information: Some records lacked wind readings or race round details. We treated missing values as unknown and kept wind-assisted marks in the main analysis.
-- Unusual times: We kept the 32.80-second 100-meter hurdles result in the main analysis and checked how unusual results affected the model.
-- Incomplete coverage: The 2020 ACC, SEC, and Big 12 files contain headers but no results, while the Big Ten file contains four rows. Empty files show what we collected and do not establish that no competitions took place. The 2026 files reflect what was available at the time of collection.
+![100-meter hurdles athlete season bests](figures/100h_season_bests.png)
 
-| Group | Archived result rows | Review notes |
-| --- | ---: | --- |
-| ACC | 3,082 | 117 older sourced rows are flagged for review. |
-| SEC | 2,959 | 249 older sourced rows are flagged for review. |
-| Big Ten | 3,065 | Compiled from TFRRS listings. |
-| Big 12 | 3,511 | Compiled from TFRRS listings. |
+![400-meter hurdles athlete season bests](figures/400h_season_bests.png)
 
-These counts describe the archived results before selecting season bests. See the [ACC audit](data/processed/acc_2016_2026_audit.csv) and [SEC audit](data/processed/sec_2016_2026_audit.csv) for more detail. Check `source_url` and `data_status` before treating flagged records as verified.
-ZZZ We should have a table of season's best counts per class and per conference ZZZ
+![400-meter athlete season bests](figures/400m_season_bests.png)
 
+![Long jump athlete season bests](figures/long_jump_season_bests.png)
 
-## Data Dictionary
+The analysis uses the [100H](data/processed/by_event/100H_2016_2026.csv), [400H](data/processed/by_event/400H_2016_2026.csv), [400m](data/processed/by_event/400m_2016_2026.csv), and [long jump](data/processed/by_event/long_jump_2016_2026.csv) files. We use athlete, event, and season to identify each season best. School, conference, and reported class describe the records. In the [regression notebook](All_events_regression_model_checks-2-2.ipynb), the outcome is season-best time or distance, modeled on both the original and log scales. Outdoor eligibility year is the predictor, and athlete identity accounts for repeated observations of the same athlete.
 
-The annual CSV files use these 18 fields:
+## Appendix
 
-| Fields | What they show |
+| Other fields | What they show |
 | --- | --- |
-| `athlete`, `school`, `conference`, `season` | Athlete name, school, project conference group, and outdoor season year. |
-| `event`, `performance`, `unit` | Event, reported result, and unit. Running times use `s` or `seconds`, and long jump uses `m`. |
-| `class_year` | Class label as reported in the source, sometimes with an eligibility suffix. |
-| `birth_date`, `age_at_meet` | Birth date and age when reliably sourced. Otherwise, these fields are blank. |
-| `meet`, `meet_date`, `round`, `place`, `wind` | Competition details when available. A blank round does not tell us which round was run. |
-| `indoor_outdoor` | Whether the result was recorded indoors or outdoors. This project focuses on outdoor results. |
-| `source_url`, `data_status` | Source link and review status. |
+| `unit`, `indoor_outdoor` | Unit of measurement and competition setting |
+| `meet`, `meet_date`, `round`, `place`, `wind` | Competition details, when available |
+| `birth_date`, `age_at_meet` | Birth date and age, when reliably sourced |
+| `source_url`, `data_status` | Source link and review status |
 
-## Spaghetti Plots
-ZZZ Add plots here ZZZ
-
-Each dot shows an athlete's best recorded performance for an observed school year. Lines connect results for the same athlete. With many athletes on one chart, the lines overlap and look like spaghetti.
-
-- Running events: A line going down means the athlete ran faster because their time decreased.
-- Long jump: A line going up means the athlete jumped farther.
-- Missing years: A gap means we did not find a result for that athlete for that year. A single dot means we found results for only one year.
-- Conference colors: In the conference plots, athletes keep the color of their first recorded conference group even if they transfer.
-
-### What We Saw
-
-Athletes followed different paths. Some recorded better results in later years, some stayed close to their earlier performances, and others improved one year and performed worse the next. The plots make those individual changes easier to see. The regression models summarize overall differences by outdoor eligibility year, while the spaghetti plots show how results changed for each athlete across observed school years.
-ZZZ For this paragraph, let's give some summaries.  For example, what is the average distance jumped during first year, sophomore year, etc.  ZZZ  
-
-
-## Rebuilding the Annual Files
-ZZZ I don't think this is necessary in this section, I think it can go in an Appendix ZZZ
-The [scripts folder](scripts/) contains the ACC and SEC build scripts and their companion legacy audit scripts. To rebuild a season, run the corresponding build script with the year, such as `python scripts/build_sec_all_meets.py 2024`. Then run the matching legacy audit script to restore and flag unmatched older records. The audit scripts use earlier Git commits, so they may require the full repository history.
+The [scripts folder](scripts/) contains the ACC and SEC annual build scripts and legacy audit scripts. To rebuild a season, run the corresponding build script with the year, for example `python scripts/build_sec_all_meets.py 2024`. Then run the matching legacy audit script to restore and flag older unmatched records. The audit scripts use earlier Git commits and may require the full repository history.
